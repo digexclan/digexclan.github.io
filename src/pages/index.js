@@ -5,9 +5,11 @@ import styled from "styled-components"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import Sponsors from "../components/Home/sponsors"
+
 import photoSession from "../images/photo-session.png"
 
-const Container = styled.div`
+const Landing = styled.div`
   display: grid;
   grid-template-rows: 100%;
   grid-template-columns: 50% 50%;
@@ -31,7 +33,7 @@ const Box = styled.div`
 const BigT = styled.h1`
   font-size: 60px;
   font-weight: 600;
-  margin-top: 3rem;
+  margin-top: 7rem;
 
   @media screen and (max-width: 760px) {
     font-size: 50px;
@@ -68,16 +70,17 @@ const LearnMore = styled.div`
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Container>
+    <Landing>
       <Box>
         <BigT>Change your lens, change your story.</BigT>
         <SubT>The photography club at Delhi Public School, R.K. Puram.</SubT>
         <LearnMore>Learn more</LearnMore>
       </Box>
       <Box>
-        <img src={photoSession} />
+        <img style={{ userSelect: "none" }} src={photoSession} />
       </Box>
-    </Container>
+    </Landing>
+    <Sponsors />
   </Layout>
 )
 
