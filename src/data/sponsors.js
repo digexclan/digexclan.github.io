@@ -15,4 +15,8 @@ export default [
     name: "The Chopras",
     src: require("../images/sponsors/thechopras.png"),
   },
+  {
+    name: "Sony",
+    src: require("../images/sponsors/sony.png"),
+  },
 ]
