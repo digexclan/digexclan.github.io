@@ -11,6 +11,10 @@ const links = [
     title: "Members",
     href: "/members",
   },
+  {
+    title: "Alumni",
+    href: "/alumni",
+  },
 ]
 
 const Container = styled.div`

@@ -1,6 +1,8 @@
 import React from "react"
-import { Link } from "gatsby"
+import { navigate } from "@reach/router"
 import styled from "styled-components"
+
+import { FaChevronCircleRight as Chevron } from "react-icons/fa"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -48,6 +50,9 @@ const SubT = styled.div`
 `
 
 const LearnMore = styled.div`
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   padding: 18px 40px;
   background: #3f3d56;
   color: #fff;
@@ -74,7 +79,12 @@ const IndexPage = () => (
       <Box>
         <BigT>Change your lens, change your story.</BigT>
         <SubT>The photography club at Delhi Public School, R.K. Puram.</SubT>
-        <LearnMore>Learn more</LearnMore>
+        <LearnMore onClick={() => navigate("/digex-2019")}>
+          <div>Digex 2019</div>
+          <div style={{ transform: "translateY(2.5px)", marginLeft: "10px" }}>
+            <Chevron size="1.3rem" />
+          </div>
+        </LearnMore>
       </Box>
       <Box>
         <img style={{ userSelect: "none" }} src={photoSession} />
