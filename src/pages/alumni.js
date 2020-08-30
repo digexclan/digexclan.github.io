@@ -4,7 +4,7 @@ import styled from "styled-components"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import members from "../data/members.json"
+import alumni from "../data/alumni.json"
 
 export const Container = styled.div`
   width: 90%;
@@ -15,13 +15,13 @@ export const Subtitle = styled.div`
   font-weight: 700;
 `
 
-const Grade = styled.div`
+const Batch = styled.div`
   font-size: 28px;
   margin-top: 30px;
   font-weight: 600;
 `
 
-const Members = styled.div`
+const People = styled.div`
   display: grid;
   margin-top: 20px;
   grid-template-columns: repeat(3, 1fr);
@@ -59,19 +59,19 @@ const Person = ({ name, role }) => {
 
 export default () => (
   <Layout>
-    <SEO title="Members" />
+    <SEO title="Alumni" />
     <div style={{ display: "flex", justifyContent: "center" }}>
       <Container>
-        <Subtitle>Members</Subtitle>
+        <Subtitle>Alumni</Subtitle>
 
-        {members.map(({ year, members }) => (
+        {alumni.map(({ batch, people }) => (
           <>
-            <Grade>{year}</Grade>
-            <Members>
-              {members.map(member => (
-                <Person {...member} />
+            <Batch>Batch of {batch}</Batch>
+            <People>
+              {people.map(person => (
+                <Person {...person} />
               ))}
-            </Members>
+            </People>
           </>
         ))}
       </Container>

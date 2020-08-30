@@ -1,0 +1,137 @@
+[
+  {
+    "batch": "2019-20",
+    "people": [
+      { "name": "Tanish Goel", "role": "President" },
+      { "name": "Aravika Khosla", "role": "President" },
+      { "name": "Nikhil Garg", "role": "Vice President" },
+      { "name": "Veronica Mathur", "role": "Member" },
+      { "name": "Abhijay Singh Bhandari", "role": "Member" },
+      { "name": "Pulan Pattanaiak", "role": "Member" },
+      { "name": "Rahul Bouri", "role": "Member" },
+      { "name": "Arnav Kundra", "role": "Member" },
+      { "name": "Riya Oak", "role": "Member" },
+      { "name": "Upmanyu Das", "role": "Member" },
+      { "name": "Shubhansh Arora", "role": "Member" },
+      { "name": "Aditya Batra", "role": "Member" },
+      { "name": "Anish Khosla", "role": "Member" },
+      { "name": "Drashik Gogna", "role": "Member" },
+      { "name": "Kanishk Srivastava", "role": "Member" },
+      { "name": "Gaurank Chadha", "role": "Member" }
+    ]
+  },
+  {
+    "batch": "2018-19",
+    "people": [
+      { "name": "Ishika Gupta", "role": "President" },
+      { "name": "Shrey Mandol", "role": "Director" },
+      { "name": "Vaibhav Sharma", "role": "Member" },
+      { "name": "Sarthak Saini", "role": "Member" },
+      { "name": "Ayush Chinmay", "role": "Member" },
+      { "name": "Mehak Puri", "role": "Member" },
+      { "name": "Abhijeet Manohar", "role": "Member" },
+      { "name": "Rohan Sethi", "role": "Member" },
+      { "name": "Mansi Vikram", "role": "Member" },
+      { "name": "Yashvardhan Ahlawat", "role": "Member" },
+      { "name": "Kartik Gupta", "role": "Member" },
+      { "name": "Sanjna Mehrotra", "role": "Member" },
+      { "name": "Sidharth Grover", "role": "Member" },
+      { "name": "Ansh Arora", "role": "Member" }
+    ]
+  },
+  {
+    "batch": "2017-18",
+    "people": [
+      { "name": "Prithvi Paul Chatrath", "role": "President" },
+      { "name": "Chhavi Chopra", "role": "President" },
+      { "name": "Shaurya Jain", "role": "Member" },
+      { "name": "Akshay Khandewal", "role": "Member" },
+      { "name": "Shivin Uppal", "role": "Member" },
+      { "name": "Udhav Sinha", "role": "Member" },
+      { "name": "Himanshu Jain", "role": "Member" }
+    ]
+  },
+  {
+    "batch": "2016-17",
+    "people": [
+      { "name": "Divit Jawa", "role": "Member" },
+      { "name": "Aditya Anmol", "role": "Member" },
+      { "name": "Ananya Chandra", "role": "Member" },
+      { "name": "Kripa Gulati", "role": "Member" },
+      { "name": "Malaika Puri", "role": "Member" },
+      { "name": "Arsh Sharma", "role": "Member" },
+      { "name": "Arsh Karwal", "role": "Member" },
+      { "name": "Diwakar Baweja", "role": "Member" },
+      { "name": "Sara Wadhwa", "role": "Member" }
+    ]
+  },
+  {
+    "batch": "2015-16",
+    "people": [
+      { "name": "Neel Bakshi", "role": "Member" },
+      { "name": "Rohin Sikka", "role": "Member" },
+      { "name": "Aarushee Agrawal", "role": "Member" },
+      { "name": "Shivan Mittal", "role": "Member" },
+      { "name": "Siddhartha Kapuria", "role": "Member" },
+      { "name": "Kaveri Mahanta", "role": "Member" },
+      { "name": "Anumay Ashish Mishra", "role": "Member" },
+      { "name": "Devansh Gandhi", "role": "Member" },
+      { "name": "Rahul Vats", "role": "Member" },
+      { "name": "Sayyam Gupta", "role": "Member" },
+      { "name": "Aryaman Bose", "role": "Member" }
+    ]
+  },
+  {
+    "batch": "2014-15",
+    "people": [
+      { "name": "Sidhant Jain", "role": "Member" },
+      { "name": "Tejas Sachdeva", "role": "Member" },
+      { "name": "Anish Lall", "role": "Member" },
+      { "name": "S. Rohit", "role": "Member" },
+      { "name": "Karmanya Singh", "role": "Member" },
+      { "name": "Sanyaa Mehrotra", "role": "Member" },
+      { "name": "Siddharth Bhogra", "role": "Member" },
+      { "name": "Alabhya Vaibhav", "role": "Member" },
+      { "name": "Adya Sharma", "role": "Member" },
+      { "name": "Vasudha Mathur", "role": "Member" },
+      { "name": "Madhav Narayan", "role": "Member" }
+    ]
+  },
+  {
+    "batch": "2013-14",
+    "people": [
+      { "name": "Ushmita Seth", "role": "Member" },
+      { "name": "Pranav Aditya", "role": "Member" },
+      { "name": "Priyanka Bains", "role": "Member" },
+      { "name": "Shreyas Dudhlani", "role": "Member" },
+      { "name": "Laksh Goel", "role": "Member" },
+      { "name": "Aditya Goel", "role": "Member" },
+      { "name": "Akshay Lall", "role": "Member" },
+      { "name": "Ambar Aneja", "role": "Member" },
+      { "name": "Antara Joglekar", "role": "Member" },
+      { "name": "Arjun Kakkar", "role": "Member" },
+      { "name": "Chaitanya Sachdeva", "role": "Member" },
+      { "name": "Raghav Munjal", "role": "Member" },
+      { "name": "Shourya Khanna", "role": "Member" },
+      { "name": "Udyan Arora", "role": "Member" },
+      { "name": "Vasudha Vijaysheel", "role": "Member" },
+      { "name": "Vibhav Nanda", "role": "Member" }
+    ]
+  },
+  {
+    "batch": "2010",
+    "people": [
+      { "name": "Chhavi Mehta", "role": "Member" },
+      { "name": "Nimit Jain", "role": "Member" },
+      { "name": "Devansh Vaish", "role": "Member" },
+      { "name": "Yatin Srivastava", "role": "Member" },
+      { "name": "Shreya Ahuja", "role": "Member" },
+      { "name": "Akshita Khosla", "role": "Member" },
+      { "name": "Ravin Raori", "role": "Member" },
+      { "name": "Manan Shishodia", "role": "Member" },
+      { "name": "Ushmita Seth", "role": "Member" },
+      { "name": "Veer Misra", "role": "Member" },
+      { "name": "Dhruv Agarwal", "role": "Member" }
+    ]
+  }
+]
