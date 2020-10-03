@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
 
-const links = [
+export const links = [
   {
     title: "About",
     href: "/about",
@@ -14,6 +14,14 @@ const links = [
   {
     title: "Alumni",
     href: "/alumni",
+  },
+  {
+    title: "Event",
+    href: "#",
+  },
+  {
+    title: "Contact Us",
+    href: "#",
   },
 ]
 

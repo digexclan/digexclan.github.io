@@ -8,6 +8,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import Sponsors from "../components/Home/sponsors"
+import Know from "../components/Home/know"
 
 import photoSession from "../images/photo-session.png"
 
@@ -78,7 +79,10 @@ const IndexPage = () => (
     <Landing>
       <Box>
         <BigT>Change your lens, change your story.</BigT>
-        <SubT>The photography club at Delhi Public School, R.K. Puram.</SubT>
+        <SubT>
+          The photography and filmmaking club at Delhi Public School, R.K.
+          Puram.
+        </SubT>
         <LearnMore onClick={() => navigate("/digex-2019")}>
           <div>Digex 2019</div>
           <div style={{ transform: "translateY(2.5px)", marginLeft: "10px" }}>
@@ -91,6 +95,7 @@ const IndexPage = () => (
       </Box>
     </Landing>
     <Sponsors />
+    <Know />
   </Layout>
 )
 
