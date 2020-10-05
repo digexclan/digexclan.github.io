@@ -78,7 +78,7 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Landing>
       <Box>
-        <BigT>Change your lens, change your story.</BigT>
+        <BigT>Change your lens, {"\n"}change your story.</BigT>
         <SubT>
           The photography and filmmaking club at Delhi Public School, R.K.
           Puram.

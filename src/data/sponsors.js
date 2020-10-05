@@ -1,5 +1,9 @@
 export default [
   {
+    name: "Canon",
+    src: require("../images/sponsors/canon.png"),
+  },
+  {
     name: "PVR Cinemas",
     src: require("../images/sponsors/pvr.jpg"),
   },
@@ -14,9 +18,5 @@ export default [
   {
     name: "The Chopras",
     src: require("../images/sponsors/thechopras.png"),
-  },
-  {
-    name: "Sony",
-    src: require("../images/sponsors/sony.png"),
   },
 ]

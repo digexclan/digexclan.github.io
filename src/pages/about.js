@@ -60,5 +60,6 @@ export default () => (
         <Founder />
       </Container>
     </div>
+    <div style={{ marginBottom: "36vh" }} />
   </Layout>
 )

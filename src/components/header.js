@@ -1,8 +1,16 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import styled from "styled-components"
 
 import Navbar from "./navbar"
+
+import digexLogo from "../images/digex-header.png"
+
+const Logo = styled.img`
+  height: 30px;
+  margin: auto 0;
+`
 
 const Header = ({ siteTitle }) => (
   <header
@@ -26,7 +34,8 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          {siteTitle}
+          {/* {siteTitle} */}
+          <Logo src={digexLogo} />
         </Link>
       </h1>
       <Navbar />
