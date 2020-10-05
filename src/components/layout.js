@@ -8,6 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import Helmet from "react-helmet"
 
 import Header from "./header"
 import Footer from "./footer"
@@ -28,6 +29,12 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <Helmet>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+        />
+      </Helmet>
       <div
         style={{
           margin: `0 auto`,

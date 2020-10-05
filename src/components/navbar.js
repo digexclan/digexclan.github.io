@@ -19,10 +19,10 @@ export const links = [
     title: "Event",
     href: "#",
   },
-  {
-    title: "Contact Us",
-    href: "#",
-  },
+  // {
+  //   title: "Contact Us",
+  //   href: "#",
+  // },
 ]
 
 const Container = styled.div`

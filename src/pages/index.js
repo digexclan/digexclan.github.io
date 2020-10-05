@@ -1,6 +1,7 @@
 import React from "react"
 import { navigate } from "@reach/router"
 import styled from "styled-components"
+import { Animated } from "react-animated-css"
 
 import { FaChevronCircleRight as Chevron } from "react-icons/fa"
 
@@ -77,22 +78,26 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Landing>
-      <Box>
-        <BigT>Change your lens, {"\n"}change your story.</BigT>
-        <SubT>
-          The photography and filmmaking club at Delhi Public School, R.K.
-          Puram.
-        </SubT>
-        <LearnMore onClick={() => navigate("/digex-2019")}>
-          <div>Digex 2019</div>
-          <div style={{ transform: "translateY(2.5px)", marginLeft: "10px" }}>
-            <Chevron size="1.3rem" />
-          </div>
-        </LearnMore>
-      </Box>
-      <Box>
-        <img style={{ userSelect: "none" }} src={photoSession} />
-      </Box>
+      <Animated animationIn="bounceInLeft">
+        <Box>
+          <BigT>Change your lens, {"\n"}change your story.</BigT>
+          <SubT>
+            The photography and filmmaking club at Delhi Public School, R.K.
+            Puram.
+          </SubT>
+          <LearnMore onClick={() => navigate("/digex-2019")}>
+            <div>Digex 2019</div>
+            <div style={{ transform: "translateY(2.5px)", marginLeft: "10px" }}>
+              <Chevron size="1.3rem" />
+            </div>
+          </LearnMore>
+        </Box>
+      </Animated>
+      <Animated animationIn="bounceInRight">
+        <Box>
+          <img style={{ userSelect: "none" }} src={photoSession} />
+        </Box>
+      </Animated>
     </Landing>
     <Sponsors />
     <Know />

@@ -32,6 +32,13 @@ const Members = styled.div`
   }
 `
 
+const HMember = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`
+
 const Person = ({ name, role }) => {
   const Name = styled.div`
     font-weight: 500;
@@ -63,6 +70,11 @@ export default () => (
     <div style={{ display: "flex", justifyContent: "center" }}>
       <Container>
         <Subtitle>Members</Subtitle>
+
+        <HMember>
+          <Grade style={{ marginBottom: "15px" }}>Honourary Member</Grade>
+          <Person name="Krishnav Gaind" role="Member" />
+        </HMember>
 
         {members.map(({ year, members }) => (
           <>
