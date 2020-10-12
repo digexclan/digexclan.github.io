@@ -49,7 +49,7 @@ export default () => (
             order to give themselves an outlet to channel their creative energy.
             Today, Digex is over 35 members strong and is active and bustling
             with exhibitions, competitions, and symposiums throughout the year.
-            Digex is open to students of all classes (6 to 12) and is completely
+            Digex is open to students of all classes (9 to 12) and is completely
             student run, with guidance from faculty members. Digex attends
             several competitions that are organized by other schools and
             organizations in and around the Delhi-NCR region and every year

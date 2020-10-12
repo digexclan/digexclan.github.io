@@ -34,9 +34,15 @@ const Members = styled.div`
 
 const HMember = styled.div`
   width: 100%;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `
 
 const Person = ({ name, role }) => {
@@ -71,9 +77,13 @@ export default () => (
       <Container>
         <Subtitle>Members</Subtitle>
 
+        <Grade style={{ marginBottom: "15px", textAlign: "center" }}>
+          Honourary Member
+        </Grade>
         <HMember>
-          <Grade style={{ marginBottom: "15px" }}>Honourary Member</Grade>
+          <div />
           <Person name="Krishnav Gaind" role="Member" />
+          <div />
         </HMember>
 
         {members.map(({ year, members }) => (

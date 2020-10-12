@@ -19,8 +19,8 @@ const D = styled.div``
 
 const Buttons = styled.div`
   display: grid;
-  width: 20vw;
-  grid-template-columns: repeat(2, 1fr);
+  width: 12vw;
+  grid-template-columns: repeat(1, 1fr);
   margin-top: 20px;
 
   @media screen and (max-width: 768px) {
@@ -54,7 +54,7 @@ export default () => (
       enthusiasts to channel their creative energy.
     </D>
     <Buttons>
-      <Button>Read More</Button>
+      {/* <Button>Read More</Button> */}
       <Button>Our Magazine</Button>
     </Buttons>
   </Container>

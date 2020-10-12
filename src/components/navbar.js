@@ -75,7 +75,9 @@ const Overlay = styled.div`
   left: 0;
   right: 0;
   background: #fff;
-  opacity: 0.8;
+  opacity: 0.9;
+
+  z-index: 3;
 
   display: flex;
   flex-direction: column;
@@ -105,7 +107,9 @@ export default () => {
         <X onClick={() => setOverlay(false)}>x</X>
         {links.map(link => (
           <Link style={{ textDecoration: "none" }} to={link.href}>
-            <NavItem>{link.title}</NavItem>
+            <NavItem style={{ marginLeft: overlay ? "20px" : "auto" }}>
+              {link.title}
+            </NavItem>
           </Link>
         ))}
       </Overlay>
