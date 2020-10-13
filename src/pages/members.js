@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { Animated } from "react-animated-css"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -92,7 +93,9 @@ export default () => (
             <Grade>{year}</Grade>
             <Members>
               {members.map(member => (
+                // <Animated animationIn="fadeInDown">
                 <Person {...member} />
+                // </Animated>
               ))}
             </Members>
           </>

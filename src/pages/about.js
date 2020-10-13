@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { Animated } from "react-animated-css"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -40,7 +41,9 @@ export default () => (
               alignItems: "center",
             }}
           >
-            <DigexImg src={digexImg} />
+            <Animated animationIn="fadeInLeft">
+              <DigexImg src={digexImg} />
+            </Animated>
           </div>
           <T>
             Digex, short for Digital Excellence, is the photography and

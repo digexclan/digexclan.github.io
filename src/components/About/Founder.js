@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { Animated } from "react-animated-css"
 
 import sarikaMaam from "../../images/founder.jpg"
 
@@ -85,7 +86,9 @@ export default () => (
       </Desc>
     </T>
     <ImgC>
-      <FounderImg src={sarikaMaam} />
+      <Animated animationIn="fadeInRight">
+        <FounderImg src={sarikaMaam} />
+      </Animated>
     </ImgC>
   </Container>
 )
