@@ -5,7 +5,7 @@ import sarikaMaam from "../../images/founder.jpg"
 
 const Container = styled.div`
   width: 100%;
-  margin-top: 8vh;
+  margin-top: 150px;
   /* display: grid;
   grid-template-columns: repeat(2, 1fr);
 

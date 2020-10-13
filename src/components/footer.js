@@ -5,7 +5,7 @@ import { links } from "./navbar"
 
 const Container = styled.div`
   width: 100%;
-  margin-top: 30px;
+  margin-top: 50px;
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);

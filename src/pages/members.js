@@ -13,6 +13,7 @@ export const Container = styled.div`
 export const Subtitle = styled.div`
   font-size: 40px;
   font-weight: 700;
+  margin-bottom: 50px;
 `
 
 const Grade = styled.div`

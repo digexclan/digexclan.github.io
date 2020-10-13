@@ -1,7 +1,7 @@
 export default [
   {
     name: "Canon",
-    src: require("../images/sponsors/canon.png"),
+    src: require("../images/sponsors/canon.jpg"),
   },
   {
     name: "PVR Cinemas",
