@@ -4,6 +4,10 @@ import { Link } from "gatsby"
 
 export const links = [
   {
+		title: "Home",
+		href: "/"
+	},
+	{
     title: "About",
     href: "/about",
   },
