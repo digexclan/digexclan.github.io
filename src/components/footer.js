@@ -48,8 +48,8 @@ export default () => (
       <A href="https://dpsrkp.net" target="_blank">
         <I>D.P.S. R.K. Puram</I>
       </A>
-      <A href="mailto:photography.digex@gmail.com" target="_blank">
-        <I>photography.digex@gmail.com</I>
+      <A href="mailto:digex@dpsrkp.net" target="_blank">
+        <I>digex@dpsrkp.net</I>
       </A>
       <A href="tel:01149115500" target="_blank">
         <I>011 4911 5500</I>
