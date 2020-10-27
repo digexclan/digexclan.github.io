@@ -4,10 +4,10 @@ import { Link } from "gatsby"
 
 export const links = [
   {
-		title: "Home",
-		href: "/"
-	},
-	{
+    title: "Home",
+    href: "/",
+  },
+  {
     title: "About",
     href: "/about",
   },
@@ -18,6 +18,10 @@ export const links = [
   {
     title: "Alumni",
     href: "/alumni",
+  },
+  {
+    title: "Gallery",
+    href: "/gallery",
   },
   {
     title: "Event",

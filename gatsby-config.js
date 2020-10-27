@@ -37,6 +37,12 @@ module.exports = {
         display: "swap",
       },
     },
+    {
+      resolve: `gatsby-source-instagram`,
+      options: {
+        username: `7444585296`,
+      },
+    },
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     // this (optional) plugin enables Progressive Web App + Offline functionality

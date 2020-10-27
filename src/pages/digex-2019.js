@@ -24,7 +24,7 @@ const Landing = styled.div`
   }
 `
 
-const Muted = styled.div`
+export const Muted = styled.div`
   margin-top: 20px;
   font-size: 20px;
   color: #5d5d5d;
