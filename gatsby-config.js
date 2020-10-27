@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Digex Society`,
-    description: `Change your lens, change your story. The photography club at Delhi Public School, R.K. Puram.`,
-    author: `@someshkar`,
+    description: `Change your lens, change your story. The photography and filmmaking club at Delhi Public School, R.K. Puram.`,
+    author: `Somesh Kar @someshkar <gh@somesh.co>`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

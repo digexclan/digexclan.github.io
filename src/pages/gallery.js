@@ -22,7 +22,7 @@ const Container = styled.div`
 
 const GalleryPage = ({ data }) => (
   <Layout>
-    <SEO title="Archive" />
+    <SEO title="Gallery" />
     <Subtitle>Gallery</Subtitle>
     <Muted>
       These images are sourced from{" "}
