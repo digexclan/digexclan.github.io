@@ -85,8 +85,8 @@ const IndexPage = () => (
             The photography and filmmaking club at Delhi Public School, R.K.
             Puram.
           </SubT>
-          <LearnMore onClick={() => navigate("/digex-2019")}>
-            <div>Digex 2019</div>
+          <LearnMore onClick={() => navigate("/digex-2020")}>
+            <div>Digex 2020</div>
             <div style={{ transform: "translateY(2.5px)", marginLeft: "10px" }}>
               <Chevron size="1.3rem" />
             </div>
