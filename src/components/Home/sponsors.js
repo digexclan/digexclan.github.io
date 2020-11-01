@@ -8,6 +8,7 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
@@ -29,7 +30,9 @@ export default () => (
   >
     <Container>
       {sponsors.map(sponsor => (
-        <Sponsor {...sponsor} />
+        <a href={sponsor.href} target="_blank">
+          <Sponsor {...sponsor} />
+        </a>
       ))}
     </Container>
   </div>
