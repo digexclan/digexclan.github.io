@@ -11,7 +11,7 @@ export default [
   // },
   {
     name: "Unirely",
-    src: require("../images/sponsors/unirely.jpg"),
+    src: require("../images/sponsors/unirely.png"),
     href: "https://unirely.com/",
   },
   // {
