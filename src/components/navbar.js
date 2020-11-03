@@ -23,10 +23,10 @@ export const links = [
     title: "Gallery",
     href: "/gallery",
   },
-  {
-    title: "Event",
-    href: "#",
-  },
+  // {
+  //   title: "Event",
+  //   href: "#",
+  // },
   // {
   //   title: "Contact Us",
   //   href: "#",
