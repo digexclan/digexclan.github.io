@@ -85,17 +85,35 @@ const IndexPage = () => (
             The photography and filmmaking club at Delhi Public School, R.K.
             Puram.
           </SubT>
-          <LearnMore onClick={() => navigate("/digex-2020")}>
-            <div>Digex 2020</div>
-            <div style={{ transform: "translateY(2.5px)", marginLeft: "10px" }}>
-              <Chevron size="1.3rem" />
-            </div>
-          </LearnMore>
+          <div style={{ display: "flex" }}>
+            <LearnMore onClick={() => navigate("/digex-2020")}>
+              <div>Digex 2020</div>
+              <div
+                style={{ transform: "translateY(2.5px)", marginLeft: "10px" }}
+              >
+                <Chevron size="1.3rem" />
+              </div>
+            </LearnMore>
+            <a href="https://forms.gle/kAa4Cg9SpgsdiY7U9" target="_blank">
+              <LearnMore style={{ marginLeft: "20px" }}>
+                <div>Register</div>
+                <div
+                  style={{ transform: "translateY(2.5px)", marginLeft: "10px" }}
+                >
+                  <Chevron size="1.3rem" />
+                </div>
+              </LearnMore>
+            </a>
+          </div>
         </Box>
       </Animated>
       <Animated animationIn="bounceInRight">
         <Box>
-          <img style={{ userSelect: "none" }} src={photoSession} />
+          <img
+            style={{ userSelect: "none" }}
+            style={{ transform: "translateY(20px)" }}
+            src={photoSession}
+          />
         </Box>
       </Animated>
     </Landing>
