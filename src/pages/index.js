@@ -13,6 +13,7 @@ import Know from "../components/Home/know"
 
 import photoSession from "../images/photo-session.png"
 
+
 const Landing = styled.div`
   display: grid;
   grid-template-rows: 100%;

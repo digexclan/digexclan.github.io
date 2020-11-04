@@ -8,16 +8,20 @@ import SEO from "../components/seo"
 import { Subtitle } from "./members"
 import { Muted } from "./digex-2019"
 
+import ImgsViewer from 'react-images-viewer'
+
+import Gallery from '../components/Gallery'
+
+
 const Container = styled.div`
-  display: grid;
-  width: 85%;
-  margin: 30px auto;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 
-  grid-template-columns: repeat(3, 1fr);
-
-  @media screen and (max-width: 768px) {
-    grid-template-columns: 1fr;
-  }
 `
 
 const GalleryPage = ({ data }) => (
@@ -31,9 +35,17 @@ const GalleryPage = ({ data }) => (
       </a>
     </Muted>
     <Container>
-      {data.allInstaNode.edges.map(({ node }) => (
-        <img src={node.localFile.childImageSharp.fixed.src} />
-      ))}
+     
+      <Gallery
+      
+      imgs={data.allInstaNode.edges.map(({ node }) => ({
+        src: node.original,
+        thumbnail: node.localFile.childImageSharp.fixed.src,
+        caption:node.caption,
+        useForDemo:true,
+        orientation:"source",
+      }))}
+    />
     </Container>
   </Layout>
 )
@@ -42,18 +54,37 @@ export default GalleryPage
 
 export const query = graphql`
   query {
-    allInstaNode {
-      edges {
-        node {
-          localFile {
-            childImageSharp {
-              fixed(width: 300, height: 300, cropFocus: WEST) {
-                src
-              }
+  allInstaNode {
+    edges {
+      node {
+        id
+        likes
+        comments
+        mediaType
+        preview
+        original
+        timestamp
+        caption
+        localFile {
+          childImageSharp {
+            fixed(width: 300, height: 300,cropFocus: WEST) {
+              ...GatsbyImageSharpFixed
             }
           }
+        },
+        
+        # Only available with the public api scraper
+        thumbnails {
+          src
+          config_width
+          config_height
+        }
+        dimensions {
+          height
+          width
         }
       }
     }
   }
+}
 `
