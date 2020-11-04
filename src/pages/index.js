@@ -18,7 +18,6 @@ const Landing = styled.div`
   grid-template-rows: 100%;
   grid-template-columns: 50% 50%;
   grid-column-gap: 2rem;
-  height: 60vh;
   width: 100%;
   @media screen and (max-width: 768px) {
     grid-template-rows: 50% 50%;
@@ -52,6 +51,7 @@ const SubT = styled.div`
 
 const LearnMore = styled.div`
   display: flex;
+  height: 70px;
   justify-content: space-around;
   align-items: center;
   padding: 18px 40px;
