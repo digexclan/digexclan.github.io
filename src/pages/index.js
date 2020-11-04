@@ -20,7 +20,6 @@ const Landing = styled.div`
   grid-column-gap: 2rem;
   height: 60vh;
   width: 100%;
-
   @media screen and (max-width: 768px) {
     grid-template-rows: 50% 50%;
     grid-template-columns: 100%;
@@ -94,7 +93,9 @@ const IndexPage = () => (
                 <Chevron size="1.3rem" />
               </div>
             </LearnMore>
-            <a href="https://forms.gle/kAa4Cg9SpgsdiY7U9" target="_blank">
+
+            <a href="https://forms.gle/kAa4Cg9SpgsdiY7U9" target="_blank" style={{ textDecoration: 'none' }}>
+
               <LearnMore style={{ marginLeft: "20px" }}>
                 <div>Register</div>
                 <div
