@@ -57,13 +57,7 @@ export const query = graphql`
   allInstaNode {
     edges {
       node {
-        id
-        likes
-        comments
-        mediaType
-        preview
         original
-        timestamp
         caption
         localFile {
           childImageSharp {
@@ -71,17 +65,6 @@ export const query = graphql`
               ...GatsbyImageSharpFixed
             }
           }
-        },
-        
-        # Only available with the public api scraper
-        thumbnails {
-          src
-          config_width
-          config_height
-        }
-        dimensions {
-          height
-          width
         }
       }
     }
