@@ -20,6 +20,10 @@ export const links = [
     href: "/alumni",
   },
   {
+    title: "Magazine",
+    href: "/magazine",
+  },
+  {
     title: "Gallery",
     href: "/gallery",
   },
