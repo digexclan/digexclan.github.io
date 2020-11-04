@@ -94,7 +94,7 @@ const IndexPage = () => (
               </div>
             </LearnMore>
 
-            <a href="https://forms.gle/kAa4Cg9SpgsdiY7U9" target="_blank" style={{ textDecoration: 'none' }}>
+            <a href="https://forms.gle/kAa4Cg9SpgsdiY7U9" target="_blank" style={{ textDecoration: 'none' }}  >
 
               <LearnMore style={{ marginLeft: "20px" }}>
                 <div>Register</div>
