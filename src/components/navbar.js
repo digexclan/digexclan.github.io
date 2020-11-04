@@ -103,7 +103,7 @@ export default () => {
         ))}
         <a href={require("../Expose 2020.pdf")} style={{textDecoration:"none"}} rel="noopener noreferrer">
             <NavItem style={{ marginLeft: overlay ? "20px" : "auto" }}>
-              Magazine2
+              Magazine
            </NavItem>
         </a>
       </Container>
@@ -120,7 +120,7 @@ export default () => {
         ))}
         <a href={require("../Expose 2020.pdf")} style={{textDecoration:"none"}} rel="noopener noreferrer">
             <NavItem style={{ marginLeft: overlay ? "20px" : "auto" }}>
-              Magazine2
+              Magazine
            </NavItem>
         </a>
       </Overlay>
