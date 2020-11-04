@@ -20,21 +20,9 @@ export const links = [
     href: "/alumni",
   },
   {
-    title: "Magazine",
-    href: "/magazine",
-  },
-  {
     title: "Gallery",
     href: "/gallery",
   },
-  // {
-  //   title: "Event",
-  //   href: "#",
-  // },
-  // {
-  //   title: "Contact Us",
-  //   href: "#",
-  // },
 ]
 
 const Container = styled.div`
@@ -113,6 +101,11 @@ export default () => {
             <NavItem>{link.title}</NavItem>
           </Link>
         ))}
+        <a href={require("../Expose 2020.pdf")} style={{textDecoration:"none"}} rel="noopener noreferrer">
+            <NavItem style={{ marginLeft: overlay ? "20px" : "auto" }}>
+              Magazine2
+           </NavItem>
+        </a>
       </Container>
       <Mobile onClick={() => setOverlay(true)}>☰</Mobile>
       <Overlay style={{ display: overlay ? "flex" : "none" }}>
@@ -123,7 +116,13 @@ export default () => {
               {link.title}
             </NavItem>
           </Link>
+
         ))}
+        <a href={require("../Expose 2020.pdf")} style={{textDecoration:"none"}} rel="noopener noreferrer">
+            <NavItem style={{ marginLeft: overlay ? "20px" : "auto" }}>
+              Magazine2
+           </NavItem>
+        </a>
       </Overlay>
     </>
   )

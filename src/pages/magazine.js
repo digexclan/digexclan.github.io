@@ -13,9 +13,6 @@ import Know from "../components/Home/know"
 
 import photoSession from "../images/photo-session.png"
 
-import { Document, Page } from 'react-pdf';
-
-// import page1 from "../images/pages/0.jpg"
 const Landing = styled.div`
   display: grid;
   grid-template-rows: 100%;
@@ -30,41 +27,100 @@ const Landing = styled.div`
   }
 `
 
-// const page = styled.div`
-//   height: 20px;
-//   background-color: red;
-// `
-// const Page = ({name, src }) => (
-//   <img style={{ height: "120px", width: "auto" }} src={src} alt={name} />
-// )
+const Box = styled.div`
+  @media screen and (max-width: 768px) {
+    padding: 1rem;
+  }
+`
+
+const BigT = styled.h1`
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: 7rem;
+
+  @media screen and (max-width: 760px) {
+    font-size: 50px;
+    margin-top: 0;
+  }
+`
+
+const SubT = styled.div`
+  font-weight: 500;
+  color: #7d7c7c;
+  font-size: 20px;
+`
+
+const LearnMore = styled.div`
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 18px 40px;
+  background: #3f3d56;
+  color: #fff;
+  font-weight: 500;
+  width: fit-content;
+  margin-top: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+      0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    transform: translateY(-1px);
+  }
+`
 
 const IndexPage = () => (
   <Layout>
-    <div className="page" style={{width:"100%",textAlign:"center"}}>
-      
-    
-      <img src={require("../images/pages/0.jpg")} width="70%" />
-      <img src={require("../images/pages/1.jpg")} width="70%" />
-      <img src={require("../images/pages/2.jpg")} width="70%" />
-      <img src={require("../images/pages/3.jpg")} width="70%" />
-      <img src={require("../images/pages/4.jpg")} width="70%" />
-      <img src={require("../images/pages/5.jpg")} width="70%" />
-      <img src={require("../images/pages/6.jpg")} width="70%" />
-      <img src={require("../images/pages/7.jpg")} width="70%" />
-      <img src={require("../images/pages/8.jpg")} width="70%" />
-      <img src={require("../images/pages/9.jpg")} width="70%" />
-      <img src={require("../images/pages/10.jpg")} width="70%" />
-      <img src={require("../images/pages/11.jpg")} width="70%" />
-      <img src={require("../images/pages/12.jpg")} width="70%" />
-      <img src={require("../images/pages/13.jpg")} width="70%" />
-      <img src={require("../images/pages/14.jpg")} width="70%" />
-      <img src={require("../images/pages/15.jpg")} width="70%" />
-      <img src={require("../images/pages/16.jpg")} width="70%" />
-      
-    </div>
-    
+    <SEO title="Home" />
+    <Landing>
+      <Animated animationIn="bounceInLeft">
+        <Box>
+          <BigT>Change your lens, {"\n"}change your story.</BigT>
+          <SubT>
+            The photography and filmmaking club at Delhi Public School, R.K.
+            Puram.
+          </SubT>
+          <div style={{ display: "flex" }}>
+            <LearnMore onClick={() => navigate("/digex-2020")}>
+              <div>Digex 2020</div>
+              <div
+                style={{ transform: "translateY(2.5px)", marginLeft: "10px" }}
+              >
+                <Chevron size="1.3rem" />
+              </div>
+            </LearnMore>
+
+            <a href="https://forms.gle/kAa4Cg9SpgsdiY7U9" target="_blank" style={{ textDecoration: 'none' }}  >
+
+              <LearnMore style={{ marginLeft: "20px" }}>
+                <div>Register</div>
+                <div
+                  style={{ transform: "translateY(2.5px)", marginLeft: "10px" }}
+                >
+                  <Chevron size="1.3rem" />
+                </div>
+              </LearnMore>
+            </a>
+          </div>
+        </Box>
+      </Animated>
+      <Animated animationIn="bounceInRight">
+        <Box>
+          <img
+            style={{ userSelect: "none" }}
+            style={{ transform: "translateY(20px)" }}
+            src={photoSession}
+          />
+        </Box>
+      </Animated>
+    </Landing>
+    <Sponsors />
+    <Know />
   </Layout>
 )
 
 export default IndexPage
-  
