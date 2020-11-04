@@ -1,0 +1,31 @@
+a.qwe{
+	box-sizing: border-box;
+    display: block;
+    float: left;
+    line-height: 0;
+    padding-right: 2;
+    padding-bottom: 2;
+    overflow: hidden;
+
+    
+    border: 10px;
+    margin: 5px;
+    display: block;
+    height: auto;
+    max-width: 100%;
+    width: auto;
+}
+'@media only screen and (min-width: 500px)': {
+      a.qwe{
+      	padding-right: 4;
+      	padding-bottom: 4;
+      }
+}
+img.sour{
+	border: 10px;
+    margin: 5px;
+    display: block;
+    height: auto;
+    max-width: 100%;
+    width: auto;
+}

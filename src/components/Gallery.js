@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import ImgsViewer from 'react-images-viewer'
 import PropTypes from 'prop-types'
 import { css, StyleSheet } from 'aphrodite/no-important'
+import "./gal.css"
 
 class Gallery extends Component {
   constructor () {
@@ -57,14 +58,15 @@ class Gallery extends Component {
     if (!imgs) return
 
     const gallery = imgs.filter(i => i.useForDemo).map((obj, i) => {
+
       return (
         <a
           href={obj.src}
-          className={css(classes.thumbnail, classes[obj.orientation])}
+          className="qwe"
           key={i}
           onClick={(e) => this.openImgsViewer(i, e)}
         >
-          <img src={obj.thumbnail} className={css(classes.source)} />
+          <img src={obj.thumbnail} className="sour" />
         </a>
       )
     })
@@ -121,53 +123,6 @@ const gutter = {
   small: 2,
   large: 4,
 }
-const classes = StyleSheet.create({
-  gallery: {
-    marginRight: -gutter.small,
-    overflow: 'hidden',
-    '@media (min-width: 500px)': {
-      marginRight: -gutter.large,
-    }
-  },
-
-  // anchor
-  thumbnail: {
-    boxSizing: 'border-box',
-    display: 'block',
-    float: 'left',
-    lineHeight: 0,
-    paddingRight: gutter.small,
-    paddingBottom: gutter.small,
-    overflow: 'hidden',
-
-    '@media (min-width: 500px)': {
-      paddingRight: gutter.large,
-      paddingBottom: gutter.large,
-    }
-  },
-
-  // orientation
-  landscape: {
-    width: '30%',
-  },
-  square: {
-    paddingBottom: gutter.large,
-    width: '40%',
-
-    '@media (min-width: 500px)': {
-      paddingBottom: gutter.large,
-    }
-  },
-
-  // actual <img />
-  source: {
-    border: "10px",
-    margin: "5px",
-    display: 'block',
-    height: 'auto',
-    maxWidth: '100%',
-    width: 'auto'
-  },
-})
+  
 
 export default Gallery
