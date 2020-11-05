@@ -41,7 +41,6 @@ const GalleryPage = ({ data }) => (
       imgs={data.allInstaNode.edges.map(({ node }) => ({
         src: node.original,
         thumbnail: node.localFile.childImageSharp.fixed.src,
-        caption:node.caption,
         useForDemo:true,
         orientation:"source",
       }))}
