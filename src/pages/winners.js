@@ -9,6 +9,7 @@ import winners from "../data/winners2020.json"
 
 export const Container = styled.div`
   width: 90%;
+  margin-bottom: 100px;
 `
 
 export const Subtitle = styled.div`
