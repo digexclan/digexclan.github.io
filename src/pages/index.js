@@ -23,7 +23,7 @@ const Landing = styled.div`
   @media screen and (max-width: 768px) {
     grid-template-rows: 50% 50%;
     grid-template-columns: 100%;
-    height: 90vh;
+    min-height: 90vh;
   }
 `
 
@@ -66,7 +66,7 @@ const LearnMore = styled.div`
   user-select: none;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease-in-out;
-
+  margin-right: 10px;
   &:hover {
     box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
       0 10px 10px -5px rgba(0, 0, 0, 0.04);
@@ -95,17 +95,14 @@ const IndexPage = () => (
               </div>
             </LearnMore>
 
-            <a href="https://forms.gle/kAa4Cg9SpgsdiY7U9" target="_blank" style={{ textDecoration: 'none' }}  >
-
-              <LearnMore style={{ marginLeft: "20px" }}>
-                <div>Register</div>
-                <div
-                  style={{ transform: "translateY(2.5px)", marginLeft: "10px" }}
-                >
-                  <Chevron size="1.3rem" />
-                </div>
-              </LearnMore>
-            </a>
+            <LearnMore onClick={() => navigate("/winners")}>
+              <div>Winners</div>
+              <div
+                style={{ transform: "translateY(2.5px)", marginLeft: "10px" }}
+              >
+                <Chevron size="1.3rem" />
+              </div>
+            </LearnMore>
           </div>
         </Box>
       </Animated>

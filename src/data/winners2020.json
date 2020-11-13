@@ -1,0 +1,42 @@
+[
+	{
+		"event":"CreADive",
+		"winners":[
+			{"name":"Ayaan Mehra","school":"Modern School Barakhamba","position":"First"},
+			{"name":"Aryan Panigrahi","school":"Delhi Public School Sushant Lok","position":"Second"},
+			{"name":"Tanveer Singh and Siya Aneja","school":"Tagore International School Vasant Vihar","position":"Third"}
+		]
+	},
+	{
+		"event":"Surprise Event",
+		"winners":[
+			{"name":"Suhana Mehta and Sabhya Arora","school":"Tagore International School Vasant Vihar","position":"First"},
+			{"name":"Shikhar Mohan and Sneha Gupta","school":"Tagore International School East of Kailash","position":"Second"},
+			{"name":"Sanya Tawakley","school":"Modern School Barakhamba","position":"Third"}
+		]
+	},
+	{
+		"event":"Camistic",
+		"winners":[
+			{"name":"Suhani Bansal and Manya Kamath","school":"Modern School Barakhamba","position":"First"},
+			{"name":"Shambhavi Dube and Kartik Mangal","school":"Bharatiya Vidya Bhavan’s Vidyashram, Jaipur","position":"Second"},
+			{"name":"Aarushi Vohra and Madhav Goel","school":"Tagore International School Vasant Vihar","position":"Third"}
+		]
+	},
+	{
+		"event":"Pixelate Junior",
+		"winners":[
+			{"name":"Daksh Bosatta","school":"St. George’s School","position":"First"},
+			{"name":"Aryan Arora","school":"Modern School Barakhamba","position":"Second"},
+			{"name":"Om Devendranath","school":"Birla Vidya Niketan","position":"Third"}
+		]
+	},
+	{
+		"event":"Pixelate Senior",
+		"winners":[
+			{"name":"Prakhar Khurana","school":"Delhi Public School Vasant Kunj ","position":"First"},
+			{"name":"Arnava Sharma","school":"The Shri Ram School Aravali","position":"Second"},
+			{"name":"Amanjot Singh","school":"S.S Mota Singh Model School","position":"Third"}
+		]
+	}
+]	
