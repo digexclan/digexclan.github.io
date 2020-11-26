@@ -77,7 +77,7 @@ export default () => (
     <CENTER>
     <div style={{ display: "flex", justifyContent: "center" }}>
       <Container>
-        <Subtitle>Results 2020</Subtitle>
+        <Subtitle>Winning Entries</Subtitle>
 
 
         <div style={{textAlign: "center"}}>The site is under Maintenance. Visit later for updates.</div>
