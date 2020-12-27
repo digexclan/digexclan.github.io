@@ -78,9 +78,12 @@ export default () => (
     <div style={{ display: "flex", justifyContent: "center" }}>
       <Container>
         <Subtitle>Winning Entries</Subtitle>
+        <iframe src="https://drive.google.com/embeddedfolderview?id=1BzHuSLZ3-mAnLbVw_GNHxxdhBURIe5h-#grid" style={{width:"100%", height:"600px", border:"0"}}></iframe>
 
+        <div style={{textAlign: "center"}}>
+  
 
-        <div style={{textAlign: "center"}}>The site is under Maintenance. Visit later for updates.</div>
+        </div>
       </Container>
     </div>
     </CENTER>
