@@ -1,19 +1,34 @@
 export default [
   {
-    name: "Canon",
-    src: require("../images/sponsors/canon.jpg"),
-    href: "https://global.canon",
+    name: "Oaase",
+    src: require("../images/sponsors/oaase.png"),
+    href: "https://oaaselearning.studio/",
   },
+  {
+    name: "IvyAchievement",
+    src: require("../images/sponsors/ivy.png"),
+    href: "https://www.ivyachievement.com/",
+  },
+  {
+    name: "La Brezza",
+    src: require("../images/sponsors/labrezza.png"),
+    href: "http://www.clasicobrands.com/icelabrezza.html",
+  },
+  // {
+  //   name: "Canon",
+  //   src: require("../images/sponsors/canon.jpg"),
+  //   href: "https://global.canon",
+  // },
   // {
   //   name: "PVR Cinemas",
   //   src: require("../images/sponsors/pvr.jpg"),
   //   href: "https://www.pvrcinemas.com/",
   // },
-  {
-    name: "Unirely",
-    src: require("../images/sponsors/unirely.png"),
-    href: "https://unirely.com/",
-  },
+  // {
+  //   name: "Unirely",
+  //   src: require("../images/sponsors/unirely.png"),
+  //   href: "https://unirely.com/",
+  // },
   // {
   //   name: "Fujifilm",
   //   src: require("../images/sponsors/fujifilm.jpg"),
@@ -24,19 +39,19 @@ export default [
   //   src: require("../images/sponsors/thechopras.png"),
   //   href: "https://tcglobal.com/",
   // },
-  {
-    name: "Pearl Academy",
-    src: require("../images/sponsors/pearl.jpg"),
-    href: "https://pearlacademy.com/",
-  },
-  {
-    name: "Univesity with a Purpose",
-    src: require("../images/sponsors/upes.jpg"),
-    href: "https://www.upes.ac.in/",
-  },
-  {
-    name: "Flow",
-    src: require("../images/sponsors/flow.png"),
-    href: "https://www.flowsportslife.com/",
-  },
+  // {
+  //   name: "Pearl Academy",
+  //   src: require("../images/sponsors/pearl.jpg"),
+  //   href: "https://pearlacademy.com/",
+  // },
+  // {
+  //   name: "Univesity with a Purpose",
+  //   src: require("../images/sponsors/upes.jpg"),
+  //   href: "https://www.upes.ac.in/",
+  // },
+  // {
+  //   name: "Flow",
+  //   src: require("../images/sponsors/flow.png"),
+  //   href: "https://www.flowsportslife.com/",
+  // },
 ]

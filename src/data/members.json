@@ -2,51 +2,94 @@
   {
     "year": "Class 12",
     "members": [
-      { "name": "Keshav Gupta", "role": "Senior Member" },
-      { "name": "Vaidurya Nath", "role": "Senior Member" },
-      { "name": "Divyanshi Chauhan", "role": "Member" },
-      { "name": "Arushi Kejriwal", "role": "Member" },
-      { "name": "Piya Paul", "role": "Member" },
-      { "name": "Nitya Tuli", "role": "Member" },
-      { "name": "Diya Mahapatra", "role": "Member" },
-      { "name": "Priyanshu Sinha", "role": "Member" },
-      { "name": "Telewe Therieh", "role": "Member" }
+      { "name": "Kushagra Pandey", "role": "Member" },
+      { "name": "Vivaann Pahwa", "role": "Member" },
+      { "name": "Siya Chhabra", "role": "Member" },
+      { "name": "Vansh Jain", "role": "Member" },
+      { "name": "Adarsh Kumar", "role": "Member" },
+      { "name": "Agrima Jain", "role": "Member" },
+      { "name": "Anishka Kakkar", "role": "Member" },
+      { "name": "Ayan B Das", "role": "Member" },
+      { "name": "Bharat Bhargava", "role": "Member" },
+      { "name": "Gopal Krishan Halder", "role": "Member" },
+      { "name": "Medhavi Devraj", "role": "Member" },
+      { "name": "Pulkit Gupta", "role": "Member" },
+      { "name": "Saanvi Sekhri", "role": "Member" },
+      { "name": "Sambhav Soni", "role": "Member" },
+      { "name": "Satvik Khurana", "role": "Member" },
+      { "name": "Suhaani Bhandari", "role": "Member" },
+      { "name": "Sarthak Goel ", "role": "Member" },
+      { "name": "Aryan Gulati", "role": "Member" },
+      { "name": "Armaan Gulaty ", "role": "Member" },
+      { "name": "Garrv Loddha Jain", "role": "Member" },
+      { "name": "Sanit Austin Adhikari", "role": "Member" },
+      { "name": "Saathvik Sharma", "role": "Member" },
+      { "name": "Anoushka Garg", "role": "Member" },
+      { "name": "Vidur Sahni", "role": "Member" },
+      { "name": "Priyansh Gupta", "role": "Member" },
+      { "name": "Krish Gupta", "role": "Member" }
     ]
   },
   {
     "year": "Class 11",
     "members": [
-      { "name": "Kushagra Pandey", "role": "Member" },
-      { "name": "Vivaann Pahwa", "role": "Member" },
-      { "name": "Siya Chhabra", "role": "Member" },
-      { "name": "Aniket Negi", "role": "Member" },
-      { "name": "Advitya Singhal", "role": "Member" },
-      { "name": "Aaditya Kakkar", "role": "Member" },
-      { "name": "Adarsh Kumar", "role": "Member" },
-      { "name": "Agrima Jain", "role": "Member" },
-      { "name": "Akshat Sharma", "role": "Member" },
-      { "name": "Anshika Kakkar", "role": "Member" },
-      { "name": "Ayan B Das", "role": "Member" },
-      { "name": "Bharat Bhargava", "role": "Member" },
-      { "name": "Gopal Krishan Halder", "role": "Member" },
-      { "name": "Ishanvi Arora", "role": "Member" },
-      { "name": "Medhavi Devraj", "role": "Member" },
-      { "name": "Pulkit Gupta", "role": "Member" },
-      { "name": "Saanvi Sekhri", "role": "Member" },
-      { "name": "Sambhav Soni", "role": "Member" },
-      { "name": "Satvik Agrawal", "role": "Member" },
-      { "name": "Satvik Khurana", "role": "Member" },
-      { "name": "Shreyansh Jha", "role": "Member" },
-      { "name": "Suhaani Bhandari", "role": "Member" },
-      { "name": "Tishan Chaudhary", "role": "Member" },
-      { "name": "Vansh Jain", "role": "Member" }
+      { "name": "Ritvik Kumar", "role": "Member" },
+      { "name": "Samiya Bhatia", "role": "Member" },
+      { "name": "Deepshika", "role": "Member" },
+      { "name": "Suhani Sethi", "role": "Member" },
+      { "name": "Aaditya Gaur", "role": "Member" },
+      { "name": "Ishita Bhargava", "role": "Member" },
+      { "name": "Abhishek Jain", "role": "Member" },
+      { "name": "Myra Vaish", "role": "Member" },
+      { "name": "Aditya Banka", "role": "Member" },
+      { "name": "Pratishtha Batra", "role": "Member" },
+      { "name": "Sana Chawla", "role": "Member" }
     ]
   },
   {
     "year": "Class 10",
     "members": [
-      { "name": "Ritvik Kumar", "role": "Member" },
-      { "name": "Shaurya Gupta", "role": "Member" }
+      { "name": "Smriti Srivastava", "role": "Member" },
+      { "name": "Akul Kalra", "role": "Member" },
+      { "name": "Hashmeet Kaur", "role": "Member" },
+      { "name": "Jupman Sandhu", "role": "Member" }
+    ]
+  },
+  {
+    "year": "Class 9",
+    "members": [{ "name": "Samriddhi", "role": "Member" }]
+  },
+  {
+    "year": "Class 8",
+    "members": [
+      { "name": "Aditya Goel", "role": "Member" },
+      { "name": "Abhiveer Luthra", "role": "Member" },
+      { "name": "Yasha kansotia", "role": "Member" },
+      { "name": "Shaurya Malhotra", "role": "Member" },
+      { "name": "Aaryan Jaiswal", "role": "Member" },
+      { "name": "Veda Dua", "role": "Member" },
+      { "name": "Suhaan Oberoi", "role": "Member" }
+    ]
+  },
+  {
+    "year": "Class 7",
+    "members": [
+      { "name": "Tiara Gera", "role": "Member" },
+      { "name": "Shivam Chaudhary ", "role": "Member" },
+      { "name": "Vaibhav Manjumdar", "role": "Member" },
+      { "name": "Arnav Sakshya", "role": "Member" }
+    ]
+  },
+  {
+    "year": "Class 6",
+    "members": [
+      { "name": "Vihaan Gupta", "role": "Member" },
+      { "name": "Reyhaan Punchhi", "role": "Member" },
+      { "name": "Aarav Sachin Vijan", "role": "Member" },
+      { "name": "Reanna Batra", "role": "Member" },
+      { "name": "Vani Menon", "role": "Member" },
+      { "name": "Manya Gupta", "role": "Member" },
+      { "name": "Aviral Goyal", "role": "Member" }
     ]
   }
 ]

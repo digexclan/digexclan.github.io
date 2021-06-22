@@ -1,5 +1,19 @@
 [
   {
+    "batch": "2020-21",
+    "people": [
+      { "name": "Keshav Gupta", "role": "Senior Member" },
+      { "name": "Vaidurya Nath", "role": "Senior Member" },
+      { "name": "Divyanshi Chauhan", "role": "Member" },
+      { "name": "Arushi Kejriwal", "role": "Member" },
+      { "name": "Piya Paul", "role": "Member" },
+      { "name": "Nitya Tuli", "role": "Member" },
+      { "name": "Diya Mahapatra", "role": "Member" },
+      { "name": "Priyanshu Sinha", "role": "Member" },
+      { "name": "Telewe Therieh", "role": "Member" }
+    ]
+  },
+  {
     "batch": "2019-20",
     "people": [
       { "name": "Tanish Goel", "role": "President" },

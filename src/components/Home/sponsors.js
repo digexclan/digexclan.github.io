@@ -16,7 +16,11 @@ const Container = styled.div`
 `
 
 const Sponsor = ({ name, src }) => (
-  <img style={{ height: "120px", width: "auto" }} src={src} alt={name} />
+  <img
+    style={{ margin: "30px", height: "140px", width: "auto" }}
+    src={src}
+    alt={name}
+  />
 )
 
 export default () => (
