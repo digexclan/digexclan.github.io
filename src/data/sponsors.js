@@ -1,18 +1,21 @@
 export default [
   {
-    name: "Oaase",
-    src: require("../images/sponsors/oaase.png"),
-    href: "https://oaaselearning.studio/",
-  },
-  {
     name: "IvyAchievement",
     src: require("../images/sponsors/ivy.png"),
     href: "https://www.ivyachievement.com/",
+    customStyles: { maxHeight: "100px" },
+  },
+  {
+    name: "Oaase",
+    src: require("../images/sponsors/oaase.png"),
+    href: "https://oaaselearning.studio/",
+    customStyles: { maxHeight: "200px" },
   },
   {
     name: "La Brezza",
     src: require("../images/sponsors/labrezza.png"),
     href: "http://www.clasicobrands.com/icelabrezza.html",
+    customStyles: { maxHeight: "75px" },
   },
   // {
   //   name: "Canon",

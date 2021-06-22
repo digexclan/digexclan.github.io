@@ -15,9 +15,9 @@ const Container = styled.div`
   }
 `
 
-const Sponsor = ({ name, src }) => (
+const Sponsor = ({ name, src, customStyles }) => (
   <img
-    style={{ margin: "30px", height: "140px", width: "auto" }}
+    style={{ ...customStyles, width: "auto", margin: "25px" }}
     src={src}
     alt={name}
   />

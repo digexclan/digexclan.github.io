@@ -35,6 +35,8 @@ const Button = styled.div`
   user-select: none;
   border: 1px solid #b5b5b5;
 
+  color: #000;
+
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 
@@ -53,7 +55,11 @@ export default () => (
       Public School, R.K. Puram which serves as an outlet for photography
       enthusiasts to channel their creative energy.
     </D>
-    <a href={require("../../Expose 2020.pdf")} style={{textDecoration:"none"}} rel="noopener noreferrer">
+    <a
+      href={require("../../Expose 2020.pdf")}
+      style={{ textDecoration: "none" }}
+      rel="noopener noreferrer"
+    >
       <Buttons>
         {/* <Button>Read More</Button> */}
         <Button>Our Magazine</Button>
