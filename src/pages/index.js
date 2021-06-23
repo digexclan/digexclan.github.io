@@ -13,7 +13,6 @@ import Know from "../components/Home/know"
 
 import photoSession from "../images/photo-session.png"
 
-
 const Landing = styled.div`
   display: grid;
   grid-template-rows: 100%;
@@ -86,8 +85,8 @@ const IndexPage = () => (
             Puram.
           </SubT>
           <div style={{ display: "flex" }}>
-            <LearnMore onClick={() => navigate("/digex-2020")}>
-              <div>Digex 2020</div>
+            <LearnMore onClick={() => navigate("/digex-2021")}>
+              <div>Digex 2021</div>
               <div
                 style={{ transform: "translateY(2.5px)", marginLeft: "10px" }}
               >
@@ -95,14 +94,14 @@ const IndexPage = () => (
               </div>
             </LearnMore>
 
-            <LearnMore onClick={() => navigate("/winners")}>
+            {/* <LearnMore onClick={() => navigate("/winners")}>
               <div>Winners</div>
               <div
                 style={{ transform: "translateY(2.5px)", marginLeft: "10px" }}
               >
                 <Chevron size="1.3rem" />
               </div>
-            </LearnMore>
+            </LearnMore> */}
           </div>
         </Box>
       </Animated>
