@@ -40,7 +40,7 @@ Judgement Criteria:
     name: "Hi-Res",
     desc:
       "An online movie making competition, where a movie with a message is to be created and sent. ",
-    longDesc: `Classes: Open.
+    longDesc: `Classes: 9th to 12th.
 2 Team(s) per school.
 4 Participant(s) per team.
 A title must be provided and the video must have a message.
@@ -50,7 +50,8 @@ No stock photographs/footages are allowed. Any copyrighted material should given
 Judgement Criteria:
     a. Creativity. 
     b. Relevance to Topic.
-    c. Technical Aspects.`,
+    c. Technical Aspects.
+  Submission form will be opened till 12th of July.`,
     image: require("../../images/events/s3.png"),
     style: { filter: "invert(1)" },
   },

@@ -28,6 +28,7 @@
     "react-helmet": "^6.1.0",
     "react-icons": "^3.11.0",
     "react-images-viewer": "^1.6.2",
+    "react-is": "^17.0.2",
     "react-pdf": "^5.0.0",
     "styled-components": "^5.1.1"
   },
