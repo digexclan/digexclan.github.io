@@ -55,15 +55,14 @@ export default () => (
       Public School, R.K. Puram which serves as an outlet for photography
       enthusiasts to channel their creative energy.
     </D>
-    <a
+    {/* <a
       href={require("../../Expose 2020.pdf")}
       style={{ textDecoration: "none" }}
       rel="noopener noreferrer"
     >
       <Buttons>
-        {/* <Button>Read More</Button> */}
         <Button>Our Magazine</Button>
       </Buttons>
-    </a>
+    </a> */}
   </Container>
 )

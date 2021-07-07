@@ -30,19 +30,33 @@ export const Muted = styled.div`
   color: #5d5d5d;
 `
 
+const RegLink = styled.a`
+  text-decoration: none;
+  color: #2977f5;
+
+  &:visited {
+    color: #2977f5;
+  }
+`
+
 const T = styled.div``
 
 const DigexImg = styled.img``
 
 export default () => (
   <Layout>
-    <SEO title="Digex 2020" />
+    <SEO title="Digex 2021" />
     <div style={{ display: "flex", justifyContent: "center" }}>
       <Container>
         <Subtitle>Digex 2021</Subtitle>
-        <Muted>The latest edition of our flagship event, Digex. Coming Soon.</Muted>
+        <Muted>
+          The latest edition of our flagship event, Digex.{" "}
+          <RegLink href="https://bit.ly/Digex2021Registrations" target="_blank">
+            Register here.
+          </RegLink>
+        </Muted>
         {/* <Landing> */}
-        {/* <Events /> */}
+        <Events />
         {/* </Landing> */}
         {/* <Founder /> */}
       </Container>

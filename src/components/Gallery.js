@@ -1,11 +1,11 @@
-import React, { Component } from 'react'
-import ImgsViewer from 'react-images-viewer'
-import PropTypes from 'prop-types'
-import { css, StyleSheet } from 'aphrodite/no-important'
+import React, { Component } from "react"
+import ImgsViewer from "react-images-viewer"
+import PropTypes from "prop-types"
+import { css, StyleSheet } from "aphrodite/no-important"
 import "./gal.css"
 
 class Gallery extends Component {
-  constructor () {
+  constructor() {
     super()
 
     this.state = {
@@ -20,71 +20,80 @@ class Gallery extends Component {
     this.closeImgsViewer = this.closeImgsViewer.bind(this)
     this.openImgsViewer = this.openImgsViewer.bind(this)
   }
-  openImgsViewer (index, event) {
+  openImgsViewer(index, event) {
     event.preventDefault()
     this.setState({
       currImg: index,
       isOpen: true,
     })
   }
-  closeImgsViewer () {
+  closeImgsViewer() {
     this.setState({
       currImg: 0,
       isOpen: false,
     })
   }
-  gotoPrev () {
+  gotoPrev() {
     this.setState({
-      currImg: this.state.currImg - 1
+      currImg: this.state.currImg - 1,
     })
   }
-  gotoNext () {
+  gotoNext() {
     this.setState({
-      currImg: this.state.currImg + 1
+      currImg: this.state.currImg + 1,
     })
   }
-  gotoImg (index) {
+  gotoImg(index) {
     this.setState({
-      currImg: index
+      currImg: index,
     })
   }
-  handleClickImg () {
+  handleClickImg() {
     if (this.state.currImg === this.props.imgs.length - 1) return
     this.gotoNext()
   }
-  renderGallery () {
+  renderGallery() {
     const { imgs } = this.props
 
     if (!imgs) return
 
-    const gallery = imgs.filter(i => i.useForDemo).map((obj, i) => {
-
-      return (
-        <a
-          href={obj.src}
-          className="qwe"
-          key={i}
-          onClick={(e) => this.openImgsViewer(i, e)}
-        >
-          <img src={obj.thumbnail} className="sour" />
-        </a>
-      )
-    })
+    const gallery = imgs
+      .filter(i => i.useForDemo)
+      .map((obj, i) => {
+        return (
+          <a
+            // href={obj.src}
+            className="qwe"
+            key={i}
+            // onClick={e => this.openImgsViewer(i, e)}
+          >
+            <img src={obj.thumbnail} className="sour" />
+          </a>
+        )
+      })
 
     return (
-      <div style={{display:"flex",flexDirection:"row",flexWrap:"wrap",justifyContent:"center",alignItems:"center"}}>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          flexWrap: "wrap",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
         {gallery}
       </div>
     )
   }
-  
-  render () {
+
+  render() {
     return (
-      <div >
+      <div>
         {this.props.heading && <h2>{this.props.heading}</h2>}
         {this.props.subheading && <p>{this.props.subheading}</p>}
         {this.renderGallery()}
-        <ImgsViewer
+        {/* <ImgsViewer
           backdropCloseable
           currImg={this.state.currImg}
           imgs={this.props.imgs}
@@ -100,13 +109,13 @@ class Gallery extends Component {
           spinnerColor={this.props.spinnerColor}
           spinnerSize={this.props.spinnerSize}
           theme={this.props.theme}
-        />
+        /> */}
       </div>
     )
   }
 }
 
-Gallery.displayName = 'Gallery'
+Gallery.displayName = "Gallery"
 Gallery.propTypes = {
   preventScroll: PropTypes.bool,
   spinner: PropTypes.func,
@@ -123,6 +132,5 @@ const gutter = {
   small: 2,
   large: 4,
 }
-  
 
 export default Gallery

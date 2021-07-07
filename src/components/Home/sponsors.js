@@ -15,13 +15,23 @@ const Container = styled.div`
   }
 `
 
-const Sponsor = ({ name, src, customStyles }) => (
-  <img
-    style={{ ...customStyles, width: "auto", margin: "25px" }}
-    src={src}
-    alt={name}
-  />
-)
+const Sponsor = ({ name, src, customStyles }) => {
+  const SponsorContainer = styled.div`
+    @media screen and (min-width: 768px) {
+      width: 200px;
+    }
+  `
+
+  return (
+    <SponsorContainer>
+      <img
+        style={{ ...customStyles, width: "auto", margin: "25px" }}
+        src={src}
+        alt={name}
+      />
+    </SponsorContainer>
+  )
+}
 
 export default () => (
   <div
@@ -30,6 +40,8 @@ export default () => (
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
+      flexGrow: "1",
+      flexBasis: "0",
     }}
   >
     <Container>

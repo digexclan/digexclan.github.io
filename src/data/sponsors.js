@@ -3,13 +3,13 @@ export default [
     name: "IvyAchievement",
     src: require("../images/sponsors/ivy.png"),
     href: "https://www.ivyachievement.com/",
-    customStyles: { maxHeight: "100px" },
+    customStyles: { maxHeight: "75px" },
   },
   {
     name: "Oaase",
     src: require("../images/sponsors/oaase.png"),
     href: "https://oaaselearning.studio/",
-    customStyles: { maxHeight: "200px" },
+    customStyles: { maxHeight: "175px", marginRight: "30px" },
   },
   {
     name: "La Brezza",

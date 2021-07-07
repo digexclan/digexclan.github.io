@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
+import { Animated } from "react-animated-css"
 
 export const links = [
   {
@@ -101,11 +102,11 @@ export default () => {
             <NavItem>{link.title}</NavItem>
           </Link>
         ))}
-        <a href={require("../Expose 2020.pdf")} style={{textDecoration:"none"}} rel="noopener noreferrer">
+        {/* <a href={require("../Expose 2020.pdf")} style={{textDecoration:"none"}} rel="noopener noreferrer">
             <NavItem style={{ marginLeft: overlay ? "20px" : "auto" }}>
               Magazine
            </NavItem>
-        </a>
+        </a> */}
       </Container>
       <Mobile onClick={() => setOverlay(true)}>☰</Mobile>
       <Overlay style={{ display: overlay ? "flex" : "none" }}>
@@ -116,13 +117,12 @@ export default () => {
               {link.title}
             </NavItem>
           </Link>
-
         ))}
-        <a href={require("../Expose 2020.pdf")} style={{textDecoration:"none"}} rel="noopener noreferrer">
+        {/* <a href={require("../Expose 2020.pdf")} style={{textDecoration:"none"}} rel="noopener noreferrer">
             <NavItem style={{ marginLeft: overlay ? "20px" : "auto" }}>
               Magazine
            </NavItem>
-        </a>
+        </a> */}
       </Overlay>
     </>
   )

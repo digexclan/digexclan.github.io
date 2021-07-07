@@ -1,7 +1,11 @@
-import React from "react"
+import React, { useState } from "react"
 import styled from "styled-components"
 
-import events2019 from "../../data/2019/events"
+import { Modal, Button } from "react-bootstrap"
+
+import { Muted } from "../../pages/digex-2021"
+
+import events from "../../data/2021/events"
 
 const Container = styled.div`
   margin-top: 20px;
@@ -30,27 +34,54 @@ const Desc = styled.div`
 
 const EventImg = styled.img``
 
-const Event = ({ name, desc, image, style }) => (
-  <div
-    style={{
-      border: "1px solid #e7e7e7",
-      borderRadius: "10px",
-      padding: "22px",
-    }}
-  >
-    <EventImg src={image} style={style} />
-    <Name>{name}</Name>
-    <Desc>{desc}</Desc>
-  </div>
-)
+const Event = ({ name, desc, longDesc, image, style }) => {
+  const [show, setShow] = useState(false)
+
+  const handleClose = () => setShow(false)
+  const handleShow = () => setShow(true)
+
+  const EventContainer = styled.div`
+    border: 1px solid #e7e7e7;
+    border-radius: 10px;
+    padding: 22px;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease-in;
+    &:hover {
+      transform: translateY(-2px);
+    }
+  `
+
+  return (
+    <>
+      <EventContainer onClick={handleShow}>
+        <EventImg src={image} style={style} />
+        <Name>{name}</Name>
+        <Desc>{desc}</Desc>
+      </EventContainer>
+
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>{name}</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <p>{desc}</p>
+          <div style={{ whiteSpace: "pre-wrap" }}>{longDesc ?? longDesc}</div>
+        </Modal.Body>
+      </Modal>
+    </>
+  )
+}
 
 export default () => (
   <>
     <div style={{ marginTop: "20px", fontSize: "26px", fontWeight: "700" }}>
       Events
     </div>
+    <Muted style={{ margin: 0 }}>Click on the event tiles for details.</Muted>
     <Container>
-      {events2019.map(event => (
+      {events.map(event => (
         <Event {...event} />
       ))}
     </Container>

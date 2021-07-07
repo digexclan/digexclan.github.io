@@ -13,6 +13,7 @@ import Helmet from "react-helmet"
 import Header from "./header"
 import Footer from "./footer"
 
+import "bootstrap/dist/css/bootstrap.min.css"
 import "./layout.css"
 import "./main.css"
 
