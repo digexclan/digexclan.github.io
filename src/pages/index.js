@@ -93,6 +93,14 @@ const IndexPage = () => (
                 <Chevron size="1.3rem" />
               </div>
             </LearnMore>
+            <LearnMore onClick={() => navigate("/hi-res")}>
+              <div>Hi-Res</div>
+              <div
+                style={{ transform: "translateY(2.5px)", marginLeft: "10px" }}
+              >
+                <Chevron size="1.3rem" />
+              </div>
+            </LearnMore>
 
             {/* <LearnMore onClick={() => navigate("/winners")}>
               <div>Winners</div>
