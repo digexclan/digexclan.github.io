@@ -5,7 +5,7 @@ import { Animated } from "react-animated-css"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import winners from "../data/winners2020.json"
+import winners from "../data/winners2021.json"
 
 export const Container = styled.div`
   width: 90%;
@@ -77,7 +77,7 @@ export default () => (
     <CENTER>
     <div style={{ display: "flex", justifyContent: "center" }}>
       <Container>
-        <Subtitle>Results 2020</Subtitle>
+        <Subtitle>Results 2021</Subtitle>
 
 
         {winners.map(({ event, winners }) => (
@@ -88,7 +88,7 @@ export default () => (
               {winners.map(member => (
                 // <!-- // <Animated animationIn="fadeInDown"> -->
                 // <!-- // <Person {...member} /> -->
-                <Winners>{member.position} - {member.school} - {member.name} </Winners>
+                <Winners><b>{member.position}</b> - {member.school} - {member.name} </Winners>
                 // <!-- // </Animated> -->
               ))}
           </>

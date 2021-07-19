@@ -94,8 +94,7 @@ const IndexPage = () => (
                 <Chevron size="1.3rem" />
               </div>
             </LearnMore>
-            <a href={require("../RESULTS_DIGEX21_1.pdf")} style={{textDecoration:"none"}} rel="noopener noreferrer">
-            <LearnMore>
+            <LearnMore onClick={() => navigate("/winners")}>
               <div>Digex 2021 Results</div>
               <div
                 style={{ transform: "translateY(2.5px)", marginLeft: "10px" }}
@@ -103,7 +102,6 @@ const IndexPage = () => (
                 <Chevron size="1.3rem" />
               </div>
             </LearnMore>
-            </a>
             {/* <LearnMore onClick={() => navigate("/winners")}>
               <div>Winners</div>
               <div

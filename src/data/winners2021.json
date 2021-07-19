@@ -1,0 +1,58 @@
+[
+	{
+		"event":"Pixelate Senior",
+		"winners":[
+			{"name":"Nancy Rao","school":"Sadhu Vaswani International School For Girls ","position":"First"},
+			{"name":"Ashir Singh","school":"Heritage Xperiential Learning School","position":"Second"},
+			{"name":"Rabnoor Kapoor","school":"ST MARTIN DIOCESEAN SCHOOL","position":"Third"}
+		]
+	},
+	{
+		"event":"Pixelate Junior",
+		"winners":[
+			{"name":"Tanisha Singh","school":"Springdales School Pusa Road","position":"First"},
+			{"name":"Samriddhi Gupta","school":"Bharatiya Vidya Bhavan Vidyashram","position":"Second"},
+			{"name":"Arohi Sharma","school":"Banyan Tree School Lodhi Road","position":"Third"}
+		]
+	},
+	{
+		"event":"Camistic",
+		"winners":[
+			{"name":"Aishi Aggarwal, Parakh Arora, Samia Singh and Simran Kaur","school":"GD GOENKA PUBLIC SCHOOL, VASANT KUNJ","position":"First"},
+			{"name":"Sonakshi Jain, Shrihan Sethi, Surabhi Duggal and Ishika Trehan","school":"Springdales School, Pusa Road","position":"Second"},
+			{"name":"Swara Ashok, Tanmoy Chakravorty, Tanmoy Chakravorty and Soham Halder","school":"Delhi Public School, Nerul ","position":"Third"}
+		]
+	},
+	{
+		"event":"Hi-Res",
+		"winners":[
+			{"name":"Ayaan Mehra, Hemanya Suri, Shruti Singh and Ishaan Singh ","school":"Modern School Barakhamba","position":"First"},
+			{"name":"Kaveri Arun, Sarguni Kaur Khurana, Fida Chowdhury and Niharika Gopishankar","school":"Amity International School Saket","position":"Second"},
+			{"name":"Janvi Bhatia, Riyanshi Natani, Vanishka Agarwal and Kanishk Pradhan","school":"BYB VIDYASHRAM K.M MUNSHI MARG, JAIPUR","position":"Third"}
+		]
+	},
+	{
+		"event":"CreADive",
+		"winners":[
+			{"name":"Yashvi Sachdeva and Harjas Kaur","school":"Montfort School","position":"First"},
+			{"name":"Arul Sharma","school":"Summer Fields School","position":"Second"},
+			{"name":"Hardik and Pavitr Aggarwal","school":"Apeejay School","position":"Third"}
+		]
+	},
+	{
+		"event":"Surprise Event",
+		"winners":[
+			{"name":"Ekveer Sahoo","school":"The Indian School","position":"First"},
+			{"name":"Rijul Tandon and Sanya Sharma","school":"Delhi Public School, Vasant Kunj","position":"Second"},
+			{"name":"Shivansh Goyal and Divya Agrawal","school":"Jayshree Periwal International School, Jaipur","position":"Third"}
+		]
+	},
+	{
+		"event":"Rendered",
+		"winners":[
+			{"name":"Priyanshi Garg","school":"Jayshree Periwal International School","position":"First"},
+			{"name":"Shreyansh Jain","school":"Air Force Bal Bharti School","position":"Second"},
+			{"name":"Raghav Jindal","school":"Modern School Barakhamba ","position":"Third"}
+		]
+	}
+]	
