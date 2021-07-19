@@ -40,7 +40,8 @@ Judgement Criteria:
     name: "Hi-Res",
     desc:
       "An online movie making competition, where a movie with a message is to be created and sent. ",
-    longDesc: `Classes: 9th to 12th.
+    longDesc: `Topic: Reversed Roles [open to interpretation]
+Classes: 6th to 12th.
 2 Team(s) per school.
 4 Participant(s) per team.
 A title must be provided and the video must have a message.
@@ -51,7 +52,8 @@ Judgement Criteria:
     a. Creativity. 
     b. Relevance to Topic.
     c. Technical Aspects.
-  Submission form will be opened till 12th of July.`,
+Submission form will be open till 16th July 2021 11:59PM IST.
+Please submit at https://bit.ly/DigexHI-RESSubmissions`,
     image: require("../../images/events/s3.png"),
     style: { filter: "invert(1)" },
   },

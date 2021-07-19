@@ -13,6 +13,7 @@ import Know from "../components/Home/know"
 
 import photoSession from "../images/photo-session.png"
 
+import HiResResults from "../Hi-Res Results.pdf"
 const Landing = styled.div`
   display: grid;
   grid-template-rows: 100%;
@@ -93,15 +94,16 @@ const IndexPage = () => (
                 <Chevron size="1.3rem" />
               </div>
             </LearnMore>
-            <LearnMore onClick={() => navigate("/hi-res")}>
-              <div>Hi-Res</div>
+            <a href={require("../RESULTS_DIGEX21_1.pdf")} style={{textDecoration:"none"}} rel="noopener noreferrer">
+            <LearnMore>
+              <div>Digex 2021 Results</div>
               <div
                 style={{ transform: "translateY(2.5px)", marginLeft: "10px" }}
               >
                 <Chevron size="1.3rem" />
               </div>
             </LearnMore>
-
+            </a>
             {/* <LearnMore onClick={() => navigate("/winners")}>
               <div>Winners</div>
               <div

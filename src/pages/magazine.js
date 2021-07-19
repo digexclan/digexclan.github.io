@@ -74,7 +74,10 @@ const LearnMore = styled.div`
 `
 
 const IndexPage = () => (
+  
   <Layout>
+  
+
     <SEO title="Home" />
     <Landing>
       <Animated animationIn="bounceInLeft">

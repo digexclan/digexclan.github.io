@@ -11,6 +11,8 @@ import Events from "../components/2019/Events"
 
 import digexImg from "../images/digex.png"
 
+import timelineImage from "../images/DigexBlueprints.jpeg"
+
 const Landing = styled.div`
   width: 100%;
   margin-top: 2vh;
@@ -51,10 +53,11 @@ export default () => (
         <Subtitle>Digex 2021</Subtitle>
         <Muted>
           The latest edition of our flagship event, Digex.{" "}
-          <RegLink href="https://bit.ly/Digex2021Registrations" target="_blank">
-            Register here.
-          </RegLink>
+          
         </Muted>
+        <div style={{"display":"flex",justifyContent: "center"}}>
+          <img src={timelineImage} />
+        </div>
         {/* <Landing> */}
         <Events />
         {/* </Landing> */}
