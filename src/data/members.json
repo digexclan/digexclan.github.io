@@ -2,10 +2,10 @@
   {
     "year": "Class 12",
     "members": [
-      { "name": "Kushagra Pandey", "role": "Senior Member" },
-      { "name": "Vivaann Pahwa", "role": "Senior Member" },
-      { "name": "Siya Chhabra", "role": "Senior Member" },
-      { "name": "Vansh Jain", "role": "Senior Member" },
+      { "name": "Kushagra Pandey", "role": "President" },
+      { "name": "Siya Chhabra", "role": "President" },
+      { "name": "Vivaann Pahwa", "role": "Vice President" },
+      { "name": "Vansh Jain", "role": "Vice President" },
       { "name": "Adarsh Kumar", "role": "Member" },
       { "name": "Agrima Jain", "role": "Member" },
       { "name": "Anishka Kakkar", "role": "Member" },

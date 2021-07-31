@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { Animated } from "react-animated-css"
+import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -46,6 +47,11 @@ const HMember = styled.div`
 const CENTER = styled.div`
   text-align: center;
 `
+
+const linker = styled.a`
+  text-decoration: none;
+`
+
 const Person = ({ name, position }) => {
   const Name = styled.div`
     font-weight: 500;
@@ -78,7 +84,7 @@ export default () => (
     <div style={{ display: "flex", justifyContent: "center" }}>
       <Container>
         <Subtitle>Results 2021</Subtitle>
-
+        <i style={{"fontSize":"20px"}}>Click on the name to view the entry.</i>
 
         {winners.map(({ event, winners }) => (
           <>
@@ -88,7 +94,7 @@ export default () => (
               {winners.map(member => (
                 // <!-- // <Animated animationIn="fadeInDown"> -->
                 // <!-- // <Person {...member} /> -->
-                <Winners><b>{member.position}</b> - {member.school} - {member.name} </Winners>
+                <a href={member.link} style={{"textDecoration": "none", "color":"black"}}><Winners><b>{member.position}</b> - {member.school} - {member.name} </Winners></a>
                 // <!-- // </Animated> -->
               ))}
           </>
