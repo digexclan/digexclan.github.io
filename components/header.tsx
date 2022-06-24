@@ -6,54 +6,60 @@ import { useTheme } from "next-themes";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 import styles from "../styles/header.module.scss"
+import Image from "next/image";
+import DigexLogo from "../public/Digex-logo.png"
+import { TRUE } from "sass";
 
 function Header() {
-  const { systemTheme, theme, setTheme } = useTheme();
+  // const hamburger = document.querySelector(".hamburger");
+  // const navMenu = document.querySelector(".nav-menu");
+  // const navLink = document.querySelectorAll(".nav-link");
 
-  const renderThemeChanger = () => {
-    const currentTheme = theme === "system" ? systemTheme : theme;
-    if (currentTheme === "dark") {
-      return (
-        <FontAwesomeIcon
-          icon={faSun}
-          className="w-7 h-7"
-          role="button"
-          onClick={() => setTheme("light")}
-        />
-      );
-    } else {
-      return (
-        <FontAwesomeIcon
-          icon={faMoon}
-          className="w-7 h-7"
-          role="banner"
-          onClick={() => setTheme("dark")}
-        />
-      );
-    }
-  };
+  // hamburger.addEventListener("click", mobileMenu);
+  // navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+  // function mobileMenu() {
+  //     hamburger.classList.toggle("active");
+  //     navMenu.classList.toggle("active");
+  // }
+
+  // function closeMenu() {
+  //     hamburger.classList.remove("active");
+  //     navMenu.classList.remove("active");
+  // }
+
   return (
     <div>
       <Container>
         <div className={styles.gradientbox}>
-          <div className="text-xl flex items-center">
-            <Link href="/">Research Rhinos</Link>
+          <div className="text-xl flex items-center w-64 h-16">
+            <Link href="/" passHref>
+              <Image src={DigexLogo} alt="DigexLogo"/>
+            </Link>
           </div>
-          <div className="flex flex-row items-center text-gray-600 dark:text-gray-100">
-            <span className="mr-4">
+          <div className={styles.navMenu}>
+            <span className="navLink md:mr-4 mr-10 md:mt-0 mt-0 dark:text-gray-100">
               <Link href="/">Home</Link>
             </span>
-            <span className="mr-4">
+            <span className="navLink mr-4 dark:text-gray-100">
               <Link href="/about">About</Link>
             </span>
-            <span className="mr-4">
-              <Link href="/team">Team</Link>
+            <span className="navLink mr-4 dark:text-gray-100">
+              <Link href="/members">Members</Link>
             </span>
-            <span className="mr-4">
-              <Link href="/programs">Programs</Link>
+            <span className="navLink mr-4 dark:text-gray-100">
+              <Link href="/alumni">Alumni</Link>
+            </span>
+            <span className="navLink dark:text-gray-100">
+              <Link href="/gallery">Gallery</Link>
             </span>
           </div>
-          <div className="flex flex-row items-center py-3">
+          <div className={styles.hamburger}>
+            <span className={styles.bar}></span>
+            <span className={styles.bar}></span>
+            <span className={styles.bar}></span>
+          </div>
+          {/* <div className="flex flex-row items-center py-3">
             <button className="inline-flex items-center border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0 mr-4">
               {renderThemeChanger()}
             </button>
@@ -63,7 +69,7 @@ function Header() {
             <button className="inline-flex items-center border-0 py-1 px-3 focus:outline-none hover:bg-gradient-to-r from-orange-600  to-amber-400 rounded text-base mt-4 md:mt-0">
               <Link href="/signup">Sign Up</Link>
             </button>
-          </div>
+          </div> */}
         </div>
       </Container>
     </div>
