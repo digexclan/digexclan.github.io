@@ -21,26 +21,26 @@ const Home: NextPage = () => {
       </Head>
       <Navbar />
       <Container>
-        <div className="flex mt-8 py-36">
+        <div className="flex flex-col md:flex-row mt-8 py-36">
           <div>
-            <div className="text-6xl font-bold px-16 pb-8">
+            <div className="sm:text-6xl text-3xl font-bold px-16 pb-8">
               <h1>Change your lens</h1>
               <h1>Change your story</h1>
             </div>
-            <p className="text-2xl px-16 pt-4 pb-12">
+            <p className="text-lg sm:text-2xl px-16 pt-4 pb-12">
               The photography and film-making club at Delhi Public School R.K.
               Puram.
             </p>
             <div className="flex px-16 w-3/4">
-              <div className="text-xl font-medium rounded-xl bg-gradient-to-r from-green-400  to-lime-600 text-white px-6 py-4 mr-4">
+              <div className="text-xl mt-4 sm:mt-0 font-medium rounded-xl bg-gradient-to-r from-green-400  to-lime-600 text-white px-6 py-4 mr-4">
                 <Link href="/">Digex 2022 </Link>
               </div>
-              <div className="text-xl font-medium rounded-xl bg-gradient-to-r from-green-400  to-lime-600 text-white px-6 py-4">
+              <div className="text-xl mt-4 sm:mt-0 font-medium rounded-xl bg-gradient-to-r from-green-400  to-lime-600 text-white px-6 py-4">
                 <Link href="/">Digex 2021 Results </Link>
               </div>
             </div>
           </div>
-          <div>
+          <div className="mt-8 md:mt-0">
             <img
               src="/illustration.svg"
               alt="illustration"
@@ -48,10 +48,10 @@ const Home: NextPage = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col jusitfy-center items-center my-12">
+        <div className="flex flex-col jusitfy-center items-center sm:my-12 my-0">
           <div className="flex flex-col justify-center items-center mb-8">
-            <h1 className="text-5xl font-semibold">Our Organisation</h1>
-            <p className="text-xl text-center w-2/3 my-4 text-gray-600 dark:text-gray-100">
+            <h1 className="sm:text-5xl text-3xl font-semibold">Our Organisation</h1>
+            <p className="sm:text-xl text-md text-center w-2/3 my-4 text-gray-600 dark:text-gray-100">
               Digex is the photography and film-making student organization at
               Delhi Public School, R.K. Puram which serves as an outlet for
               photography enthusiasts to channel their creative energy.
@@ -61,8 +61,8 @@ const Home: NextPage = () => {
             </div>
           </div>
           <div className="flex flex-col justify-center items-center mt-8">
-            <h1 className="text-5xl font-semibold">Our Team</h1>
-            <p className="text-xl my-4 text-gray-600 dark:text-gray-100">
+            <h1 className="sm:text-5xl text-3xl font-semibold">Our Team</h1>
+            <p className="sm:text-xl text-md my-4 text-center text-gray-600 dark:text-gray-100">
               Alone we can do so little, together we can do so much
             </p>
             <div className="text-xl font-medium rounded-xl bg-gradient-to-r from-green-400  to-lime-600 text-white px-4 py-2">
