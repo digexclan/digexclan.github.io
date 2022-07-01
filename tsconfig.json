@@ -17,6 +17,6 @@
     "sourceMap": true,
     "outDir": "dist"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/members.js", "pages/members.js", "components/card.js", "pages/alumni.js", "components/header.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/members.js", "pages/members.js", "components/card.js", "pages/alumni.js", "components/header.js", "pages/gallery.js"],
   "exclude": ["node_modules"]
 }
