@@ -28,10 +28,10 @@ const Members = () => {
           <h1 className="flex text-4xl font-bold pt-12 justify-center items-center">Members</h1>
           {data.map((grade, index) => (
             <div key={index}>
-              <h2 className="text-3xl font-bold py-8">{`${grade.year}`}</h2>
+              <h2 className="text-3xl font-bold py-8 text-center">{`${grade.year}`}</h2>
               <Grid>
                 {grade.members.map((member) => (
-                  <Card key={member.name}>
+                  <Card key={member.name} className="text-center">
                     <div className="text-2xl">{member.name}</div>
                     <div>{member.role}</div>
                   </Card>
