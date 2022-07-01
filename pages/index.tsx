@@ -33,7 +33,7 @@ const Home: NextPage = () => {
             </p>
             <div className="flex px-16 w-3/4">
               <div className="text-xl mt-4 sm:mt-0 font-medium rounded-xl bg-gradient-to-r from-rose-500  to-orange-500 text-white px-6 py-4 mr-4">
-                <Link href="/">Digex 2022 </Link>
+                <Link href="/events">Digex 2022 </Link>
               </div>
               <div className="text-xl mt-4 sm:mt-0 font-medium rounded-xl bg-gradient-to-r from-rose-500  to-orange-500 text-white px-6 py-4">
                 <Link href="/results">Digex 2021 Results </Link>
