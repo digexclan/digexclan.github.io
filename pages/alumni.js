@@ -28,10 +28,10 @@ const Alumni = () => {
           <h1 className="flex text-4xl font-bold pt-12 justify-center items-center">Alumni</h1>
           {data.map((batch, index) => (
             <div key={index}>
-              <h2 className="text-3xl font-bold py-8">Batch of {`${batch.year}`}</h2>
+              <h2 className="text-3xl font-bold py-8 text-center">Batch of {`${batch.year}`}</h2>
               <Grid>
                 {batch.alumni.map((alum,index) => (
-                  <Card key={index}>
+                  <Card key={index} className="text-center">
                     <div className="text-2xl">{alum.name}</div>
                     <div>{alum.role}</div>
                   </Card>
