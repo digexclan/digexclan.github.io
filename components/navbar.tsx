@@ -40,7 +40,7 @@ export default function Navbar() {
 
     const [open, setOpen] = useState(false)
     return (
-        <nav className="flex filter drop-shadow-md px-4 justify-around items-center border-b-2 rounded-sm">
+        <nav className="flex filter drop-shadow-md px-4 justify-around items-center">
             <MobileNav open={open} setOpen={setOpen}/>
             <div className="">
               <div className="text-xl flex items-center w-64 h-16">
@@ -60,7 +60,7 @@ export default function Navbar() {
                     <span className={`h-1 w-full bg-gray-100 rounded-lg transform transition duration-300 ease-in-out ${open ? "-rotate-45 -translate-y-3.5" : ""}`} />
                 </div>
 
-                <div className="hidden md:flex">
+                <div className="hidden text-lg md:flex">
                     <NavLink to="/">
                         Home
                     </NavLink>
