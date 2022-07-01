@@ -1,0 +1,42 @@
+[
+  {
+    "details": [
+      {
+        "title": "Pixalate Jr.",
+        "description": "An on the spot photography event on a given topic."
+      },
+      {
+        "title": "Pixelate Sr.",
+        "description": "Participants would be given a topic on the spot to shoot a photograph in a limited time."
+      },
+      {
+        "title": "Hi-Res",
+        "description": "An online movie making competition, where a movie with a message is to be created and sent."
+      },
+      {
+        "title": "Camistic",
+        "description": "A storyboard where participants create a story using pictures and provide a suitable title to it."
+      },
+      {
+        "title": "CreADive",
+        "description": "An Ad-making competition where participants would shoot and edit an advertisement."
+      },
+      {
+        "title": "Surprise",
+        "description": "A surprise event whose details would be disclosed on the spot and participants perform accordingly."
+      },
+      {
+        "title": "Rendered",
+        "description": "Online Photo Manipulation Competition, in which participants have to manipulate a photo in certain way."
+      },
+      {
+        "title": "Phonescape Sr.",
+        "description": "An on the spot phone photography event on the given topic."
+      },
+      {
+        "title": "Phonescape Jr.",
+        "description": "An on the spot phone photography event on the given topic."
+      }
+    ]
+  }
+]
