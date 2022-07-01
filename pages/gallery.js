@@ -29,7 +29,7 @@ const Gallery = () => {
         <div>
           {data.map((gallery, index) => (
             <div key={index}>
-              <h1>{`${gallery.title}`}</h1>
+              <h1 className="flex text-4xl font-bold py-12 justify-center items-center">{`${gallery.title}`}</h1>
               <Grid>
                 {gallery.images.map((img) => (
                   <Card key={img.image}>
