@@ -31,4 +31,3 @@ jobs:
           BRANCH: main
           FOLDER: public
           SINGLE_COMMIT: true
-Footer
