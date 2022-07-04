@@ -8,7 +8,7 @@ function footer() {
   return (
     <div className='flex flex-row justify-center items-center mt-16'>
       <div className='flex flex-col items-center justify-center py-8 border-t-2 w-4/6'>
-        <div>
+        <div className='flex'>
           <a href="https://www.facebook.com/digexsociety"><FontAwesomeIcon icon={faFacebook} className='mr-2' style={{width: 22, height: 22}}/></a>
           <FontAwesomeIcon icon={faInstagram} className='mr-2' style={{width: 22, height: 22}}/>
           <FontAwesomeIcon icon={faLinkedin} className='mr-2' style={{width: 22, height: 22}}/>
