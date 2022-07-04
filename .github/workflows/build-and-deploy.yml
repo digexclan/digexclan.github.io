@@ -21,7 +21,6 @@ jobs:
       - name: Install and Build 🔧
         run: |
           npm i -g npm
-          npm run clean
           npm i
           npm run build
       - name: Deploy 🚀
