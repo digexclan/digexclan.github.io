@@ -32,11 +32,11 @@ const Home: NextPage = () => {
               Puram.
             </p>
             <div className="flex px-16 w-3/4">
-              <div className="text-xl mt-4 sm:mt-0 font-medium rounded-xl bg-gradient-to-r from-rose-500  to-orange-500 text-white px-6 py-4 mr-4">
+              <div className="text-xl mt-4 sm:mt-0 font-medium rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-blue-500 hover:to-green-50 text-white px-6 py-4 mr-4">
                 <Link href="/events">Digex 2022 </Link>
               </div>
-              <div className="text-xl mt-4 sm:mt-0 font-medium rounded-xl bg-gradient-to-r from-rose-500  to-orange-500 text-white px-6 py-4">
-                <Link href="/results">Digex 2021 Results </Link>
+              <div className="text-xl mt-4 sm:mt-0 font-medium rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-blue-500 hover:to-green-50 text-white px-6 py-4">
+                <Link href="https://drive.google.com/file/d/1MuFWBH7L3RKDByP9haFTnglr-txRRgwS/view?usp=sharing">Event Invite </Link>
               </div>
             </div>
           </div>
@@ -64,7 +64,7 @@ const Home: NextPage = () => {
               Delhi Public School, R.K. Puram which serves as an outlet for
               photography enthusiasts to channel their creative energy.
             </p>
-            <div className="text-xl font-medium rounded-xl bg-gradient-to-r from-rose-500  to-orange-500 text-white px-4 py-2">
+            <div className="text-xl font-medium rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-blue-500 hover:to-green-50 text-white px-4 py-2">
               <Link href="/about">About Us</Link>
             </div>
           </div>
@@ -73,7 +73,7 @@ const Home: NextPage = () => {
             <p className="sm:text-xl text-md my-4 text-center text-gray-600 dark:text-gray-100">
               Alone we can do so little, together we can do so much
             </p>
-            <div className="text-xl font-medium rounded-xl bg-gradient-to-r from-rose-500  to-orange-500 text-white px-4 py-2">
+            <div className="text-xl font-medium rounded-xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-blue-500 hover:to-green-50 text-white px-4 py-2">
               <Link href="/members">Our Team</Link>
             </div>
           </div>

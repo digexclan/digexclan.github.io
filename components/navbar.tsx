@@ -22,15 +22,18 @@ function MobileNav({open, setOpen}) {
                 <a className="text-xl font-medium my-4" href="/about" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     About
                 </a>
+                <a className="text-xl font-medium my-4" href="/events" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                    Event
+                </a>
                 <a className="text-xl font-normal my-4" href="/members" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Members
                 </a>
                 <a className="text-xl font-normal my-4" href="/alumni" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Alumni
                 </a>
-                <a className="text-xl font-normal my-4" href="/gallery" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
+                {/* <a className="text-xl font-normal my-4" href="/gallery" onClick={() => setTimeout(() => {setOpen(!open)}, 100)}>
                     Gallery
-                </a>
+                </a> */}
             </div>  
         </div>
     )
@@ -67,15 +70,18 @@ export default function Navbar() {
                     <NavLink to="/about">
                         About
                     </NavLink>
+                    <NavLink to="/events">
+                        Event
+                    </NavLink>
                     <NavLink to="/members">
                         Members
                     </NavLink>
                     <NavLink to="/alumni">
                         Alumni
                     </NavLink>
-                    <NavLink to="/gallery">
+                    {/* <NavLink to="/gallery">
                         Gallery
-                    </NavLink>
+                    </NavLink> */}
                 </div>
             </div>
         </nav>

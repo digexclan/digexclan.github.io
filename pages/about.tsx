@@ -22,10 +22,7 @@ const About: NextPage = () => {
               About
           </h1>
           <div className="flex flex-col md:flex-row justify-center items-center">
-            <div className="flex-col pr-4">
-              <img src="/Digex-logo.png" alt="image" style={{ height: 100 }}/>
-            </div>
-            <div className="pb-12 w-3/5 mt-8 md:mt-0 text-center">
+            <div className="pb-12 w-4/5 mt-8 md:mt-0 text-center">
               <p className="text-xl">
                 The Digital Excellence society or Digex is Delhi Public School
                 R.K.Puram&#39;s photography and film-making club. Founded in

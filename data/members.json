@@ -1,14 +1,5 @@
 [
   {
-    "year": "Honorary Member",
-    "members": [
-      {
-        "name": "Krishnav Gaind",
-        "role": "Member"
-      }
-    ]
-  },
-  {
     "year": "12th",
     "members": [
       {
@@ -20,27 +11,7 @@
         "role": "Member"
       },
       {
-        "name": "Deepshika",
-        "role": "Member"
-      },
-      {
-        "name": "Suhani Sethi",
-        "role": "Member"
-      },
-      {
-        "name": "Aaditya Gaur",
-        "role": "Member"
-      },
-      {
         "name": "Ishita Bhargava",
-        "role": "Member"
-      },
-      {
-        "name": "Abhishek Jain",
-        "role": "Member"
-      },
-      {
-        "name": "Myra Vaish",
         "role": "Member"
       },
       {
@@ -54,6 +25,74 @@
       {
         "name": "Ritvik Kumar",
         "role": "Member"
+      },
+      {
+        "name": "Suhani Sethi",
+        "role": "Member"
+      },
+      {
+        "name": "Aaditya Gaur",
+        "role": "Member"
+      },
+      {
+        "name": "Abhishek Jain",
+        "role": "Member"
+      },
+      {
+        "name": "Myra Vaish",
+        "role": "Member"
+      },
+      {
+        "name": "Aadhya Dhar",
+        "role": "Member"
+      },
+      {
+        "name": "Ananya Asthana",
+        "role": "Member"
+      },
+      {
+        "name": "Ayushman Mishra ",
+        "role": "Member"
+      },
+      {
+        "name": "Chaitanya Arora",
+        "role": "Member"
+      },
+      {
+        "name": "Divyam Prusty",
+        "role": "Member"
+      },
+      {
+        "name": "Ekansh Sahu",
+        "role": "Member"
+      },
+      {
+        "name": "Kabir Bhatia",
+        "role": "Member"
+      },
+      {
+        "name": "Manya Rajput",
+        "role": "Member"
+      },
+      {
+        "name": "Pragya Srivastava",
+        "role": "Member"
+      },
+      {
+        "name": "Ritwik Sethi",
+        "role": "Member"
+      },
+      {
+        "name": "Samannita Halder",
+        "role": "Member"
+      },
+      {
+        "name": "Shivangi Priya",
+        "role": "Member"
+      },
+      {
+        "name": "Yash Aggarwal",
+        "role": "Member"
       }
     ]
   },
@@ -62,10 +101,6 @@
     "members": [
       {
         "name": "Smriti Srivastava",
-        "role": "Member"
-      },
-      {
-        "name": "Akul Kalra",
         "role": "Member"
       },
       {
